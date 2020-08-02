@@ -10,6 +10,8 @@
 *.jar
 *.zip
 *.nupkg
+*.exe
+*.dll
 
 # Xamarin Components
 Components/
@@ -43,6 +45,12 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+# Tools
+tools/Cake/
+tools/Addins/
+tools/NUnit*
+
+*.md5sum
 *_i.c
 *_p.c
 *_i.h
