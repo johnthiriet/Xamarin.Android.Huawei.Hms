@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.agconnect.core']/class[@name='Service']" name="managedName">AgconnectService</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect']" name="managedName">Huawei.Agconnect</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.annotation']" name="managedName">Huawei.Agconnect.Annotation</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.config']" name="managedName">Huawei.Agconnect.Config</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.config.impl']" name="managedName">Huawei.Agconnect.Config.Impl</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.core']" name="managedName">Huawei.Agconnect.Core</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.core.impl']" name="managedName">Huawei.Agconnect.Core.Impl</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.core.provider']" name="managedName">Huawei.Agconnect.Core.Provider</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.core.service.auth']" name="managedName">Huawei.Agconnect.Core.Service.Auth</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.exception']" name="managedName">Huawei.Agconnect.Exception</attr>
+</metadata>

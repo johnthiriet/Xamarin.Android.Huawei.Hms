@@ -1,0 +1,7 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.feature.dynamic']" name="managedName">Huawei.Hms.Feature.Dynamic</attr>
+    <attr path="/api/package[@name='com.huawei.hms.feature.dynamic.a']" name="managedName">Huawei.Hms.Feature.Dynamic.A</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common']" name="managedName">Huawei.Hms.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common.parcel']" name="managedName">Huawei.Hms.Common.Parcel</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common.util']" name="managedName">Huawei.Hms.Common.Util</attr>
+</metadata>

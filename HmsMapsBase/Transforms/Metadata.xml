@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='a' and count(parameter)=0]" name="managedName">InvokeA</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='a' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">InvokeA</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='a' and count(parameter)=2 and parameter[1][@type='java.io.OutputStream'] and parameter[2][@type='long']]" name="managedName">InvokeA</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='b' and count(parameter)=0]" name="managedName">InvokeB</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='c' and count(parameter)=0]" name="managedName">InvokeC</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='d' and count(parameter)=0]" name="managedName">InvokeD</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='e' and count(parameter)=0]" name="managedName">InvokeE</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='f' and count(parameter)=0]" name="managedName">InvokeF</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='g' and count(parameter)=0]" name="managedName">InvokeG</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpac']/method[@name='h' and count(parameter)=0]" name="managedName">InvokeH</attr>
+    <attr path="/api/package[@name='hmsmapab']/class[@name='maphttpap']/method[@name='a' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">InvokeA</attr>
+    <attr path="/api/package[@name='hmsmapaa']/class[@name='maphttpbc']/method[@name='a' and count(parameter)=0]" name="managedName">InvokeA</attr>
+    <attr path="/api/package[@name='hmsmapaa']/class[@name='maphttpbc']/method[@name='b' and count(parameter)=0]" name="managedName">InvokeB</attr>
+    <attr path="/api/package[@name='hmsmapaa']/class[@name='maphttpbc']/method[@name='c' and count(parameter)=0]" name="managedName">InvokeC</attr>
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='b' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='b' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.nio.charset.Charset']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='a' and count(parameter)=2 and parameter[1][@type='hmsmapab.maphttpay'] and parameter[2][@type='long']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='b' and count(parameter)=3 and parameter[1][@type='java.lang.String'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='b' and count(parameter)=4 and parameter[1][@type='java.lang.String'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='java.nio.charset.Charset']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='i' and count(parameter)=1 and parameter[1][@type='int']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='j' and count(parameter)=1 and parameter[1][@type='int']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='k' and count(parameter)=1 and parameter[1][@type='int']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='l' and count(parameter)=1 and parameter[1][@type='int']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='m' and count(parameter)=1 and parameter[1][@type='int']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='n' and count(parameter)=1 and parameter[1][@type='long']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='o' and count(parameter)=1 and parameter[1][@type='long']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='p' and count(parameter)=1 and parameter[1][@type='long']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='q' and count(parameter)=1 and parameter[1][@type='long']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='c' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='c' and count(parameter)=3 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='d' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='d' and count(parameter)=1 and parameter[1][@type='byte[]']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='f' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='g' and count(parameter)=1 and parameter[1][@type='hmsmapab.maphttpaf']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='I' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpad']/method[@name='n' and count(parameter)=1 and parameter[1][@type='int']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpae']/method[@name='i' and count(parameter)=1 and parameter[1][@type='long']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpae']/method[@name='c' and count(parameter)=1 and parameter[1][@type='hmsmapab.maphttpaf']]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpae']/method[@name='g' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpae']/method[@name='h' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpae']/method[@name='c' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpax']/method[@name='a' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpay']/method[@name='a' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpay']/method[@name='close' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='hmsmapab']/interface[@name='maphttpax']/method[@name='close' and count(parameter)=0]" />
+    <attr path="/api/package[@name='com.huawei.hmsmapaa.hmsmapaa.hmsmapaa.hmsmapab']/class[@name='maphttpam']/method[@name='a' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">InvokeA</attr>
+    <add-node path="/api/package[@name='hmsmapab']/class[@name='maphttpaf']">
+        <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="p0" type="java.lang.Object" />
+        </method>
+    </add-node>
+    <add-node path="/api/package[@name='hmsmapab']/class[@name='maphttpaq']">
+        <method name="get" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="p0" type="int" />
+        </method>
+    </add-node>
+    <!-- Prevent invalid property generation since these methods are not properties but builder methods -->
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getCenter']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getRadius']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getFillColor']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getStrokeColor']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getStrokeWidth']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getStrokePattern']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getZIndex']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getAlpha']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getIcon']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getPosition']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getRotation']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getSnippet']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getTitle']" name="propertyName">
+    </attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getZIndex']" name="propertyName">
+    </attr>
+    <!-- Remove useless nodes in C# -->
+    <remove-node path="/api/package[starts-with(@name,'com.huawei.hms.maps.internal')]" />
+    <remove-node path="/api/package[starts-with(@name,'com.huawei.hms.maps.util')]" />
+    <remove-node path="/api/package[starts-with(@name,'com.huawei.hms.maps.api')]" />
+    <remove-node path="/api/package[starts-with(@name,'com.huawei.hms.hmsmapaa.hmsmapaa')]" />
+    <remove-node path="/api/package[starts-with(@name,'com.huawei.hmsmapaa.hmsmapaa.hmsmapaa')]" />
+    <remove-node path="/api/package[starts-with(@name,'hmsmapaa')]" />
+    <remove-node path="/api/package[starts-with(@name,'hmsmapab')]" />
+    <!-- Change namespace -->
+    <attr path="/api/package[@name='com.huawei.hms.maps']" name="managedName">Huawei.Hms.Maps</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']" name="managedName">Huawei.Hms.Maps.Model</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model.internal']" name="managedName">Huawei.Hms.Maps.Model.Internal</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.internal']" name="managedName">Huawei.Hms.Maps.Internal</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.util']" name="managedName">Huawei.Hms.Maps.Util</attr>
+    <attr path="/api/package[@name='com.huawei.secure']" name="managedName">Huawei.Secure</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android']" name="managedName">Huawei.Secure.Android</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common']" name="managedName">Huawei.Secure.Android.Common</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.ssl']" name="managedName">Huawei.Secure.Android.Common.Ssl</attr>
+</metadata>

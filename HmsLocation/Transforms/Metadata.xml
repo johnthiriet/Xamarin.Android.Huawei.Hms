@@ -1,0 +1,20 @@
+﻿<metadata>
+    <!-- Prevent invalid conversion to properties as these methods returns Tasks -->
+    <attr path="/api/package[@name='com.huawei.hms.location']/class[@name='FusedLocationProviderClient']/method[@name='getLastLocation']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.location']/class[@name='FusedLocationProviderClient']/method[@name='getLocationAvailability']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.location']/class[@name='FusedLocationProviderClient']/method[@name='getLastLocationWithAddress']" name="propertyName"></attr>
+    
+    <!-- Remove useless nodes in C# -->
+    <remove-node path="/api/package[starts-with(@name,'com.huawei.hms.support.api.a')]" />
+    
+    <!-- Change namespace -->
+    <attr path="/api/package[@name='com.huawei.hms.location']" name="managedName">Huawei.Hms.Location</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.activityrecognition']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.ActivityRecognition</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.checksettings']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.CheckSettings</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.common']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.fence']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Fence</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.lastlocation']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.LastLocation</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.locationavailability']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.LocationAvailability</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.mock']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Mock</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.updates']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Updates</attr>
+</metadata>

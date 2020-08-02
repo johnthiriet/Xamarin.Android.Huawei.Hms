@@ -1,0 +1,6 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.huawei.hms.maps']" name="managedName">Huawei.Hms.Maps</attr>
+  <attr path="/api/package[@name='com.huawei.hms.maps.model']" name="managedName">Huawei.Hms.Maps.Model</attr>
+  <attr path="/api/package[@name='com.huawei.hms.maps.common.util']" name="managedName">Huawei.Hms.Maps.Common.Util</attr>
+  <attr path="/api/package[@name='com.huawei.hms.maps.util']" name="managedName">Huawei.Hms.Maps.Util</attr>
+</metadata>

@@ -1,0 +1,4 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.huawei.hmf.tasks']" name="managedName">Huawei.Hmf.Tasks</attr>
+    <attr path="/api/package[@name='com.huawei.hmf.tasks.a']" name="managedName">Huawei.Hmf.Tasks.A</attr>
+</metadata>

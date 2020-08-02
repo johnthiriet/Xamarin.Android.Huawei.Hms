@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.framework.common']/class[@name='IoUtils']/method[@name='closeSecure' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">CloseOutputStreamSecure</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.common']/class[@name='IoUtils']/method[@name='closeSecure' and count(parameter)=1 and parameter[1][@type='java.io.InputStream']]" name="managedName">CloseInputStreamSecure</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.common']" name="managedName">Huawei.Hms.Framework.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.common.hianalytics']" name="managedName">Huawei.Hms.Framework.Common.HiAnalytics</attr>
+</metadata>
