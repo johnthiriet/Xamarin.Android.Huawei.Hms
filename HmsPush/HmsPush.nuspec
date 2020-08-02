@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Xamarin.Android.Huawei.Hms.Maps</id>
+    <id>Xamarin.Android.Huawei.Hms.Push</id>
     <version>4.0.2.300-rc1</version>
     <title>Xamarin Huawei Hms Push SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Push SDK.</description>
