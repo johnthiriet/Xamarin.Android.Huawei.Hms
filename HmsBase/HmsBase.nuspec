@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.Base</id>
+    <version>4.0.0.300-rc1</version>
+    <title>Xamarin Huawei Hms Base SDK</title>
+    <description>Xamarin Binding Library - Huawei Hms Base SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the Hms Base SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Android.Huawei.Hms.Tasks" version="1.3.3.300-rc1" include="contentFiles, build" />
+      </group>
+      <group targetFramework="MonoAndroid90">
+      </group>
+    </dependencies>
+  </metadata>
+</package>

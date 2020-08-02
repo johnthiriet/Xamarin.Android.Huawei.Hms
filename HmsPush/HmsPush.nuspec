@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.Maps</id>
+    <version>4.0.2.300-rc1</version>
+    <title>Xamarin Huawei Hms Push SDK</title>
+    <description>Xamarin Binding Library - Huawei Hms Push SDK.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the Hms Push SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS, Push</tags>
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Android.Huawei.Hms.AgconnectCore" version="1.0.0.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="4.0.0.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.13.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkCommon" version="4.0.2.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="4.0.2.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Tasks" version="1.3.3.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="4.0.1.301-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Update" version="2.0.6.300-rc1" include="contentFiles, build" />
+      </group>
+      <group targetFramework="MonoAndroid90">
+      </group>
+    </dependencies>
+  </metadata>
+</package>

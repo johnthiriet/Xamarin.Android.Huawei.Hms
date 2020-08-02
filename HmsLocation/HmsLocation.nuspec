@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.Location</id>
+    <version>4.0.2.300-rc1</version>
+    <title>Xamarin Huawei Hms Location SDK</title>
+    <description>Xamarin Binding Library - Huawei Hms Location SDK.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the Hms Location SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS, Location</tags>
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="4.0.0.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Tasks" version="1.3.3.300-rc1" include="contentFiles, build" />
+      </group>
+      <group targetFramework="MonoAndroid90">
+      </group>
+    </dependencies>
+  </metadata>
+</package>
