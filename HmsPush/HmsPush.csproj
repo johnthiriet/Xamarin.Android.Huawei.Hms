@@ -89,10 +89,6 @@
       <Project>{29D87097-7813-4EF0-8B7F-1B153E41A774}</Project>
       <Name>HmsTasks</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HmsUpdate\HmsUpdate.csproj">
-      <Project>{54CDB1BA-F1B2-4190-83D3-21D70485D0E1}</Project>
-      <Name>HmsUpdate</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

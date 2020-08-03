@@ -17,7 +17,7 @@ var configuration = Argument("configuration", "Release");
 var artifacts = new [] {
     new Artifact {
         NativeVersion = "4.0.2.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Push Android v{0}", "4.0.2.300")
         },
@@ -30,7 +30,7 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "4.0.1.301",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei OpenDevice Android v{0}", "4.0.1.301")
         },
@@ -43,7 +43,7 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Maps Android v{0}", "4.0.1.300")
         },
@@ -56,7 +56,7 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Maps Base Android v{0}", "4.0.1.300")
         },
@@ -69,20 +69,20 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Maps Clustering Android v{0}", "4.0.1.300")
         },
         SolutionPath = "./Hms.sln",
         AssemblyInfoPath = "./HmsMapsClustering/Properties/AssemblyInfo.cs",
         NuspecPath = "./HmsMapsClustering/HmsMapsClustering.nuspec",
-        DownloadUrl = "https://public.am.files.1drv.com/y4mabf7Uo9K-NWI98Mdh0ZRmnYiqVSYoPZi-CDCoKnai3NkmtMvb_ibkkqT8RDmB_II9k3Pm2jJJ1UfVkqtVmdAWMkd6e9M1KgvnLTO5gQ5a-DM13Ai27_5DBzjLCCoW9ho6GNYmOfDSdNNHzoK0HtOU1M739xUK-w6MGNO1eWIfc0sFa0YLqBtj--nZ6keHhbtVCN71qE78QOp46p6CddPIfZhyK_qUybN6VPDvSZyV1o?access_token=EwAYA61DBAAUzl/nWKUlBg14ZGcybuC4/OHFdfEAARBYimmsxw%2bi7FwzzRxt0hkeslag3T%2btX6Jqu%2bEnFY7YcQ9fgXeHMdh5MiY1g6gbXQPQ9kauLv3rxQQPVIOl2UWgW6T4AlQWbnxeXzQJ9FWeFIdPi7Bnst8s53Waxwc9eCitI4Z4SCseidryi1nrKLtetofPx%2bkR9hxuSvV43fatSFj0LQfLz4241eTh6SP8V3cWBSmg9AdnzEgqXVG6iutZv8H3j4inCBgzAyUl8an5YxKmIaYIkSVaesNwZ0QddFUswlxWw86GeVQ18HxMgxO%2b0AcLnS7u1JKB45MiMDdWeyf9%2b6CNaLX5RT3UVyNxO2MzfmQXVT6PiGzICrHtL1gDZgAACHXU7tc034Fx6AFBbxVFcSI6Fza2wMidph2OWz1a/3uwC/LCgbPxXSy2v34C7Wg2K3LVzgXHj3pgQBURvjc5cwVUNRgSF7fLhWof237QfGkqb8fTv8z060ByfaGwzN55BqOebq2phNNS03na8v/C/bfk0n2UsYLIMQGcI66xNa%2bBlMVNxsTRtRhE0Yy9Jq6eg4HQMJQ5yKlYPcU9X%2bJFwBgmcUfIX5gnjWlz43POdznjKGbmsQsGqakZL6PRtro8gsUubswCxFtjI5rKHMd5DFF7SJFhl9zvEqWtJW4F023X%2bT01597IeIxK2s143dfxQgmI9dsF%2bd4H0HtN%2b9CHJn%2bsJAvrROZJUz%2bwZnd0f3x4uURxsgGJarebxUaTEHfUBoGV5SKJrSBdqN/bplMjFizhDlVBvzm8S%2bMmGQSmZWrUxEWEzwgfMZ6BV2oEJZZ93Tc%2b802iMz5sja8g7teBxXnLfW%2bVOA9LUu0HPPhDXfHr/pkG9/%2bgl5ca%2bHcMXOtNtKFAAaHZ7Sn1k4T130pxbIsxNnxyItXHu%2boW5/m6ZtnqaPtK6GVyJ9N%2b8HAqYShXnryZshMtjOOR%2byEw0O609EvKpbPdXPs7cqN4JBKdUuf%2bRmzfVh13826sjN/JSHsSF0BMiMlGWASJf/oSBaLaVz/SIRgC",
+        DownloadUrl = "https://githubstore.blob.core.windows.net/huawei-aar/clustering-release.aar?sp=r&st=2020-08-03T15:33:43Z&se=2022-08-03T23:33:43Z&spr=https&sv=2019-12-12&sr=b&sig=mLCbWNm1MiTMbsqH2i5vidO61BXaydpUnI420TfhW2c%3D",
         JarPath = "./HmsMapsClustering/Jars/clustering.aar",
         Dependencies = new NuSpecDependency[] {}
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Location Android v{0}", "4.0.2.300")
         },
@@ -95,7 +95,7 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "1.0.13.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Dynamic Api Android v{0}", "1.0.13.300")
         },
@@ -108,7 +108,7 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "1.0.0.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Agconnect Core Android v{0}", "1.0.0.300")
         },
@@ -121,7 +121,7 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "4.0.0.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Hms Base Android v{0}", "4.0.0.300")
         },
@@ -134,7 +134,7 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Hms Network Common Android v{0}", "4.0.2.300")
         },
@@ -147,7 +147,7 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Hms Network Grs Android v{0}", "4.0.2.300")
         },
@@ -161,7 +161,7 @@ var artifacts = new [] {
 
      new Artifact {
         NativeVersion = "2.0.6.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Hms Update Android v{0}", "2.0.6.300")
         },
@@ -175,7 +175,7 @@ var artifacts = new [] {
 
     new Artifact {
         NativeVersion = "1.3.3.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "-rc2",
         ReleaseNotes = new string [] {
             string.Format("Huawei Hms Android v{0}", "1.3.3.300")
         },
