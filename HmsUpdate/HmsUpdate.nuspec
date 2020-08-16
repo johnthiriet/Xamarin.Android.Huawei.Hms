@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Update</id>
-    <version>2.0.6.300-rc2</version>
+    <version>2.0.6.300-rc3</version>
     <title>Xamarin Huawei Hms Update SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Update SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -14,8 +14,11 @@
     <copyright>Copyright (c) 2020-present John Thiriet</copyright>
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
-      <group targetFramework="MonoAndroid90">
+      <group targetFramework="MonoAndroid9.0">
       </group>
     </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
   </metadata>
 </package>

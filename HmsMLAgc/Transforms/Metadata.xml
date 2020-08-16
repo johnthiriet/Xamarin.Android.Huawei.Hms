@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.mlkit.agc']" name="managedName">Huawei.Hms.MLKit.Agc</attr>
+    <attr path="/api/package[@name='com.huawei.hms.mlsdk.common']" name="managedName">Huawei.Hms.MLSdk.Common</attr>
+</metadata>

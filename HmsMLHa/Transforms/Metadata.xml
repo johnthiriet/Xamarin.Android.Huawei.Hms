@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.st']/class[@name='mn']" name="managedName">MnObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.op.mn']/class[@name='no']" name="managedName">NoObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.qr']/class[@name='op']" name="managedName">OpObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.mn']/class[@name='no.mn']" name="managedName">MnObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.op.no']/class[@name='mn']" name="managedName">MnObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.op.no']/class[@name='no']" name="managedName">NoObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.op.no']/class[@name='op']" name="managedName">OpObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.mn']/class[@name='mn']" name="managedName">MnObject</attr>
+    
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.mn']" name="managedName">Huawei.Hms.HiAnalytics.Mn.Mn</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.op.mn']" name="managedName">Huawei.HiAnalytics.Mn.Op.Mn</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.op.no']" name="managedName">Huawei.HiAnalytics.Mn.Op.No</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.a.mn']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.A.Mn</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.a.no']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.A.No</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.a.op']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.A.Op</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.b']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.B</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.mn']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.Mn</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.no']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.No</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.op.mn']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.Op.Mn</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.op.no']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.Op.No</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.pq']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.Pq</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.qr']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.Qr</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.rs']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.Rs</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.st']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.St</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.tu']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.Tu</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.no.uv']" name="managedName">Huawei.Hms.HiAnalytics.Mn.No.Uv</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.pq']" name="managedName">Huawei.Hms.HiAnalytics.Mn.Pq</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.qr']" name="managedName">Huawei.Hms.HiAnalytics.Mn.Qr</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.rs']" name="managedName">Huawei.Hms.HiAnalytics.Mn.Rs</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.mn.st']" name="managedName">Huawei.Hms.HiAnalytics.Mn.St</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.scankit']" name="managedName">Huawei.Hms.HiAnalytics.ScanKit</attr>
+    <attr path="/api/package[@name='com.huawei.hms.mlkit.common.ha']" name="managedName">Huawei.Hms.MLKit.Common.Ha</attr>
+    <attr path="/api/package[@name='com.huawei.hms.mlkit.common.ha.annotation']" name="managedName">Huawei.Hms.MLKit.Common.Ha.Annotation</attr>
+    <attr path="/api/package[@name='com.huawei.hms.mlkit.common.ha.event']" name="managedName">Huawei.Hms.MLKit.Common.Ha.Event</attr>
+</metadata>

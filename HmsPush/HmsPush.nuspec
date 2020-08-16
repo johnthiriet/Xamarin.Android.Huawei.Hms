@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Push</id>
-    <version>4.0.2.300-rc2</version>
+    <version>4.0.2.300-rc3</version>
     <title>Xamarin Huawei Hms Push SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Push SDK.</description>
     <authors>John Thiriet</authors>
@@ -15,17 +15,20 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Push</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.AgconnectCore" version="1.0.0.300-rc2" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="4.0.0.300-rc2" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.13.300-rc2" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.NetworkCommon" version="4.0.2.300-rc2" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="4.0.2.300-rc2" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Tasks" version="1.3.3.300-rc2" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="4.0.1.301-rc2" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Update" version="2.0.6.300-rc2" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.AgconnectCore" version="1.0.0.300-rc3" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="4.0.0.300-rc3" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.13.300-rc3" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkCommon" version="4.0.2.300-rc3" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="4.0.2.300-rc3" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Tasks" version="1.3.3.300-rc3" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="4.0.1.301-rc3" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Update" version="2.0.6.300-rc3" include="contentFiles, build" />
       </group>
-      <group targetFramework="MonoAndroid90">
+      <group targetFramework="MonoAndroid9.0">
       </group>
     </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
   </metadata>
 </package>

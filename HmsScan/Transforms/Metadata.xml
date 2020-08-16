@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getVin']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getWorldManufacturerID']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getVehicleDescriptorSection']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getVehicleIdentifierSection']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getCountryCode']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getVehicleAttributes']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getPlantCode']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getSequentialNumber']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.PeopleName']/method[@name='getSpelling']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.PeopleName']/method[@name='getFullName']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.PeopleName']/method[@name='getNamePrefix']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.PeopleName']/method[@name='getGivenName']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.PeopleName']/method[@name='getFamilyName']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.PeopleName']/method[@name='getMiddleName']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.PeopleName']/method[@name='getNameSuffix']" name="propertyName"></attr>
+
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventTime']/method[@name='getYear']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventTime']/method[@name='getMonth']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventTime']/method[@name='getDay']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventTime']/method[@name='getHours']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventTime']/method[@name='getMinutes']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventTime']/method[@name='getSeconds']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventTime']/method[@name='isUTCTime']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventTime']/method[@name='getOriginalValue']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.AddressInfo']/method[@name='getAddressDetails']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.AddressInfo']/method[@name='getAddressType']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.WiFiConnectionInfo']/method[@name='getSsidNumber']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.WiFiConnectionInfo']/method[@name='getPassword']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.WiFiConnectionInfo']/method[@name='getCipherMode']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.LinkUrl']/method[@name='getTheme']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.LinkUrl']/method[@name='getLinkValue']" name="propertyName"></attr>
+    
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.SmsContent']/method[@name='getMsgContent']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.SmsContent']/method[@name='getDestPhoneNumber']" name="propertyName"></attr>
+   
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.TelPhoneNumber']/method[@name='getTelPhoneNumber']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.TelPhoneNumber']/method[@name='getUseType']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.LocationCoordinate']/method[@name='getLatitude']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.LocationCoordinate']/method[@name='getLongitude']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EmailContent']/method[@name='getAddressType']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EmailContent']/method[@name='getAddressInfo']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EmailContent']/method[@name='getSubjectInfo']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EmailContent']/method[@name='getBodyInfo']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getCertificateType']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getGivenName']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getMiddleName']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getFamilyName']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getSex']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getAvenue']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getCity']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getProvince']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getZipCode']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getCertificateNumber']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getDateOfIssue']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getDateOfExpire']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getDateOfBirth']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getCountryOfIssue']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getEyeColor']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getHairColor']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getHeight']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.DriverInfo']/method[@name='getWeightRange']" name="propertyName"></attr>
+
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.BookMarkInfo']/method[@name='getBookType']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.BookMarkInfo']/method[@name='getBookNum']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.BookMarkInfo']/method[@name='getBookPlaceInfo']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.BookMarkInfo']/method[@name='getBookUri']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.ContactDetail']/method[@name='getPeopleName']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.ContactDetail']/method[@name='getCompany']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.ContactDetail']/method[@name='getTitle']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.ContactDetail']/method[@name='getTelPhoneNumbers']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.ContactDetail']/method[@name='getEmailContents']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.ContactDetail']/method[@name='getContactLinks']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.ContactDetail']/method[@name='getAddressesInfos']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.ContactDetail']/method[@name='getNote']" name="propertyName"></attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventInfo']/method[@name='getTheme']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventInfo']/method[@name='getAbstractInfo']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventInfo']/method[@name='getPlaceInfo']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventInfo']/method[@name='getSponsor']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventInfo']/method[@name='getCondition']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventInfo']/method[@name='getBeginTime']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.EventInfo']/method[@name='getCloseTime']" name="propertyName"></attr>
+
+    
+    
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.TelPhoneNumber']/field[@name='telPhoneNumber']" name="managedName">PhoneNumber</attr>
+    <attr path="/api/package[@name='com.huawei.hms.feature']" name="managedName">Huawei.Hms.Feature</attr>
+    <attr path="/api/package[@name='com.huawei.hms.hmsscankit']" name="managedName">Huawei.Hms.HmsScanKit</attr>
+    <attr path="/api/package[@name='com.huawei.hms.hmsscankit.api']" name="managedName">Huawei.Hms.HmsScanKit.Api</attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']" name="managedName">Huawei.Hms.Ml.Scan</attr>
+    <attr path="/api/package[@name='com.huawei.hms.scankit']" name="managedName">Huawei.Hms.ScanKit</attr>
+    <attr path="/api/package[@name='com.huawei.hms.scankit.p']" name="managedName">Huawei.Hms.ScanKit.P</attr>
+    <attr path="/api/package[@name='com.huawei.hms.scankit.util']" name="managedName">Huawei.Hms.ScanKit.Util</attr>
+</metadata>

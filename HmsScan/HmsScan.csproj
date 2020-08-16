@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9ADAFCC0-D0DE-4F4C-868F-A19E2275AC89}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HmsScan</RootNamespace>
+    <AssemblyName>HmsScan</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>True</Deterministic>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jars\AboutJars.txt" />
+    <None Include="Additions\AboutAdditions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\scan-1.2.1.300.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HmsAgconnectCore\HmsAgconnectCore.csproj">
+      <Project>{53BC97F6-0DA1-4F22-B2E0-94F1A2805E31}</Project>
+      <Name>HmsAgconnectCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsTasks\HmsTasks.csproj">
+      <Project>{29D87097-7813-4EF0-8B7F-1B153E41A774}</Project>
+      <Name>HmsTasks</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">
+      <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
+      <Name>HmsNetworkGrs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsDynamicApi\HmsDynamicApi.csproj">
+      <Project>{ECA9552C-302E-47E4-9188-BC8009296CBC}</Project>
+      <Name>HmsDynamicApi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsNetworkCommon\HmsNetworkCommon.csproj">
+      <Project>{90222D28-36C8-4414-BB6D-2F9BE266DF0B}</Project>
+      <Name>HmsNetworkCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsMLAgc\HmsMLAgc.csproj">
+      <Project>{AB1AE2C5-0125-4360-BE69-0A455E04905E}</Project>
+      <Name>HmsMLAgc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsMLCamera\HmsMLCamera.csproj">
+      <Project>{E3D1CCDC-CA7B-4EE8-B5DB-660023217330}</Project>
+      <Name>HmsMLCamera</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsMLCommonUtils\HmsMLCommonUtils.csproj">
+      <Project>{7A0AAF60-6812-45B7-927D-395B52E558BF}</Project>
+      <Name>HmsMLCommonUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsMLHa\HmsMLHa.csproj">
+      <Project>{A9E926EB-1FC4-4674-AF55-27EACA37DD3B}</Project>
+      <Name>HmsMLHa</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsMLBase\HmsMLBase.csproj">
+      <Project>{E79DA299-C4FA-447E-8D72-CA7F0C3E93F1}</Project>
+      <Name>HmsMLBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

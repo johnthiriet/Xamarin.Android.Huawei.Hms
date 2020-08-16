@@ -18,7 +18,7 @@
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-    <NoWarn>CS0109;CS0114</NoWarn>
+    <NoWarn>CS0109;CS0114;CS0809;CS0108;CS0618</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,7 +28,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <NoWarn>CS0109;CS0114</NoWarn>
+    <NoWarn>CS0109;CS0114;CS0809;CS0108;CS0618</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>portable</DebugType>
@@ -37,7 +37,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <NoWarn>CS0109;CS0114</NoWarn>
+    <NoWarn>CS0109;CS0114;CS0809;CS0108;CS0618</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -60,7 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsTasks\HmsTasks.csproj">
-      <Project>{29d87097-7813-4ef0-8b7f-1b153e41a774}</Project>
+      <Project>{29D87097-7813-4EF0-8B7F-1B153E41A774}</Project>
       <Name>HmsTasks</Name>
     </ProjectReference>
   </ItemGroup>

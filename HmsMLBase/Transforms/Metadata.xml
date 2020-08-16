@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <attr path="/api/package[@name='com.huawei.hms.mlsdk.base']" name="managedName">Huawei.Hms.MLSdk.Base</attr>
+  <attr path="/api/package[@name='com.huawei.hms.mlsdk.common']" name="managedName">Huawei.Hms.MLSdk.Common</attr>
+  <attr path="/api/package[@name='com.huawei.hms.mlsdk.common.internal.client.event']" name="managedName">Huawei.Hms.MLSdk.Common.Internal.Client.Event</attr>
+  <attr path="/api/package[@name='com.huawei.hms.mlsdk.common.provider']" name="managedName">Huawei.Hms.MLSdk.Common.Internal.Client.Event</attr>
+</metadata>

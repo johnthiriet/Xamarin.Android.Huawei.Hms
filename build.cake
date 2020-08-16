@@ -16,176 +16,137 @@ var configuration = Argument("configuration", "Release");
 
 var artifacts = new [] {
     new Artifact {
+        NativeVersion = "1.3.3.300",
+        NugetSuffix = "-rc2",
+        AarName = "tasks",
+        ProjectName = "HmsTasks",
+        DownloadUrlPrefix = "hmf"
+    },
+
+    new Artifact {
         NativeVersion = "4.0.2.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Push Android v{0}", "4.0.2.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsPush/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsPush/HmsPush.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/push/{0}/push-{0}.aar",
-        JarPath = "./HmsPush/Jars/push-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "push",
+        ProjectName = "HmsPush"
     },
     new Artifact {
         NativeVersion = "4.0.1.301",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei OpenDevice Android v{0}", "4.0.1.301")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsOpenDevice/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsOpenDevice/HmsOpenDevice.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/opendevice/{0}/opendevice-{0}.aar",
-        JarPath = "./HmsOpenDevice/Jars/opendevice-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "opendevice",
+        ProjectName = "HmsOpenDevice"
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Maps Android v{0}", "4.0.1.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsMaps/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsMaps/HmsMaps.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/maps/{0}/maps-{0}.aar",
-        JarPath = "./HmsMaps/Jars/maps-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "maps",
+        ProjectName = "HmsMaps"
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Maps Base Android v{0}", "4.0.1.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsMapsBase/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsMapsBase/HmsMapsBase.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/maps-base/{0}/maps-base-{0}.aar",
-        JarPath = "./HmsMapsBase/Jars/maps-base-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "maps-base",
+        ProjectName = "HmsMapsBase"
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Maps Clustering Android v{0}", "4.0.1.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsMapsClustering/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsMapsClustering/HmsMapsClustering.nuspec",
         DownloadUrl = "https://githubstore.blob.core.windows.net/huawei-aar/clustering-release.aar?sp=r&st=2020-08-03T15:33:43Z&se=2022-08-03T23:33:43Z&spr=https&sv=2019-12-12&sr=b&sig=mLCbWNm1MiTMbsqH2i5vidO61BXaydpUnI420TfhW2c%3D",
-        JarPath = "./HmsMapsClustering/Jars/clustering.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "clustering",
+        ProjectName = "HmsMapsClustering"
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Location Android v{0}", "4.0.2.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsLocation/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsLocation/HmsLocation.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/location/{0}/location-{0}.aar",
-        JarPath = "./HmsLocation/Jars/location-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "location",
+        ProjectName = "HmsLocation"
     },
     new Artifact {
         NativeVersion = "1.0.13.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Dynamic Api Android v{0}", "1.0.13.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsDynamicApi/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsDynamicApi/HmsDynamicApi.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/dynamic-api/{0}/dynamic-api-{0}.aar",
-        JarPath = "./HmsDynamicApi/Jars/dynamic-api-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "dynamic-api",
+        ProjectName = "HmsDynamicApi"
     },
     new Artifact {
         NativeVersion = "1.0.0.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Agconnect Core Android v{0}", "1.0.0.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsAgconnectCore/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsAgconnectCore/HmsAgconnectCore.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/agconnect/agconnect-core/{0}/agconnect-core-{0}.aar",
-        JarPath = "./HmsAgconnectCore/Jars/agconnect-core-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "agconnect-core",
+        ProjectName = "HmsAgconnectCore",
+        DownloadUrlPrefix = "agconnect"
     },
     new Artifact {
         NativeVersion = "4.0.0.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Hms Base Android v{0}", "4.0.0.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsBase/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsBase/HmsBase.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/base/{0}/base-{0}.aar",
-        JarPath = "./HmsBase/Jars/base-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "base",
+        ProjectName = "HmsBase"
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Hms Network Common Android v{0}", "4.0.2.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsNetworkCommon/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsNetworkCommon/HmsNetworkCommon.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/network-common/{0}/network-common-{0}.aar",
-        JarPath = "./HmsNetworkCommon/Jars/network-common-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "network-common",
+        ProjectName = "HmsNetworkCommon"
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Hms Network Grs Android v{0}", "4.0.2.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsNetworkGrs/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsNetworkGrs/HmsNetworkGrs.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/network-grs/{0}/network-grs-{0}.aar",
-        JarPath = "./HmsNetworkGrs/Jars/network-grs-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "network-grs",
+        ProjectName = "HmsNetworkGrs"
     },
 
      new Artifact {
         NativeVersion = "2.0.6.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Hms Update Android v{0}", "2.0.6.300")
-        },
-        SolutionPath = "./Hms.sln",
-        AssemblyInfoPath = "./HmsUpdate/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsUpdate/HmsUpdate.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hms/update/{0}/update-{0}.aar",
-        JarPath = "./HmsUpdate/Jars/update-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "update",
+        ProjectName = "HmsUpdate"
     },
 
     new Artifact {
-        NativeVersion = "1.3.3.300",
+        NativeVersion = "2.0.1.300",
         NugetSuffix = "-rc2",
-        ReleaseNotes = new string [] {
-            string.Format("Huawei Hms Android v{0}", "1.3.3.300")
-        },
-        SolutionPath = "./HmsTasks/HmsTasks.csproj",
-        AssemblyInfoPath = "./HmsTasks/Properties/AssemblyInfo.cs",
-        NuspecPath = "./HmsTasks/HmsTasks.nuspec",
-        DownloadUrl = "https://developer.huawei.com/repo/com/huawei/hmf/tasks/{0}/tasks-{0}.aar",
-        JarPath = "./HmsTasks/Jars/tasks-{0}.aar",
-        Dependencies = new NuSpecDependency[] {}
+        AarName = "ml-computer-commonutils-inner",
+        ProjectName = "HmsMLCommonUtils",
+    },
+
+    new Artifact {
+        NativeVersion = "2.0.1.300",
+        NugetSuffix = "-rc2",
+        AarName = "ml-computer-ha-inner",
+        ProjectName = "HmsMLHa",
+    },
+
+    new Artifact {
+        NativeVersion = "2.0.1.300",
+        NugetSuffix = "-rc2",
+        AarName = "ml-computer-camera-inner",
+        ProjectName = "HmsMLCamera",
+    },
+
+    new Artifact {
+        NativeVersion = "2.0.1.300",
+        NugetSuffix = "-rc2",
+        AarName = "ml-computer-agc-inner",
+        ProjectName = "HmsMLAgc",
+    },
+
+    new Artifact {
+        NativeVersion = "2.0.1.300",
+        NugetSuffix = "-rc2",
+        AarName = "ml-computer-sdkbase-inner",
+        ProjectName = "HmsMLBase",
+    },
+
+    new Artifact {
+        NativeVersion = "1.2.1.300",
+        NugetSuffix = "-rc2",
+        AarName = "scan",
+        ProjectName = "HmsScan",
     }
+
+    //https://developer.huawei.com/repo/com/huawei/hms/ml-computer-camera-inner/2.0.1.300/ml-computer-camera-inner-2.0.1.300.aar
+    //https://developer.huawei.com/repo/com/huawei/hms/ml-computer-ha-inner/2.0.1.300/ml-computer-agc-inner-2.0.1.300.aar
+    //https://developer.huawei.com/repo/com/huawei/hms/ml-computer-sdkbase-inner/2.0.1.300/ml-computer-sdkbase-inner-2.0.1.300.aar
+    //https://developer.huawei.com/repo/com/huawei/hms/ml-computer-agc-inner/2.0.1.300/ml-computer-agc-inner-2.0.1.300.aar
+    //https://developer.huawei.com/repo/com/huawei/hms/ml-computer-commonutils-inner/2.0.1.300/ml-computer-commonutils-inner-2.0.1.300.aar
+    
 };
 
 //////////////////////////////////////////////////////////////////////
@@ -196,8 +157,8 @@ Task("Downloads")
     .Does(() =>
 {
     foreach(var artifact in artifacts) {
-        var downloadUrl = string.Format(artifact.DownloadUrl, artifact.NativeVersion);
-        var jarPath = string.Format(artifact.JarPath, artifact.NativeVersion);
+        var downloadUrl = string.Format(artifact.DownloadUrl, artifact.DownloadUrlPrefix, artifact.AarName, artifact.NativeVersion);
+        var jarPath = string.Format(artifact.JarPath, artifact.ProjectName, artifact.AarName, artifact.NativeVersion);
 
         DownloadFile(downloadUrl, jarPath);
     }
@@ -264,7 +225,7 @@ Task("Pack")
 //////////////////////////////////////////////////////////////////////
 
 Task("Default")
-    .IsDependentOn("Downloads")
+   // .IsDependentOn("Downloads")
     .IsDependentOn("UpdateVersion")
     .IsDependentOn("Build")
     .IsDependentOn("Pack")
@@ -283,19 +244,31 @@ class Artifact {
         get { return NativeVersion + NugetSuffix; }
     }
 
+    public string ProjectName {get; set; }
+
     public string NugetSuffix { get; set; }
 
     public string NativeVersion { get; set; }
 
-    public string AssemblyInfoPath { get; set; }
+    public string AssemblyInfoPath
+    {
+        get
+        {
+            return string.Format("./{0}/Properties/AssemblyInfo.cs", ProjectName);
+        }
+    }
 
-    public string SolutionPath { get; set; }
+    public string SolutionPath { get; set; } = "./Hms.sln";
 
-    public string DownloadUrl  { get; set; }
+    public string DownloadUrlPrefix { get;set;} = "hms";
 
-    public string JarPath { get; set; }
+    public string DownloadUrl { get; set; } = "https://developer.huawei.com/repo/com/huawei/{0}/{1}/{2}/{1}-{2}.aar";
 
-    public string NuspecPath { get; set; }
+    public string JarPath { get; } = "./{0}/Jars/{1}-{2}.aar";
+
+    public string AarName {get; set;}
+
+    public string NuspecPath => string.Format("./{0}/{0}.nuspec", ProjectName);
 
     public string Csproj
     {
@@ -305,7 +278,33 @@ class Artifact {
         }
     }
 
-    public string[] ReleaseNotes { get; set; }
+    public string[] _releaseNotes = null;
+    public string[] ReleaseNotes 
+    {
+        get
+        {
+            if (_releaseNotes == null)
+            {
+                return new string[]
+                {
+                    string.Format("Huawei Hms {0} v{1}", ProjectName, NativeVersion)
+                };
+            }
 
-    public NuSpecDependency[] Dependencies { get; set; }
+            return _releaseNotes;
+        }
+        set
+        {
+            _releaseNotes = value;
+        }
+
+    }
+
+
+    private NuSpecDependency[] _dependencies = new NuSpecDependency[0];
+    public NuSpecDependency[] Dependencies
+    {
+        get { return _dependencies; }
+        set { _dependencies = value; }
+    }
 }

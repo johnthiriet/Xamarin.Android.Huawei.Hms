@@ -1,22 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/class[@name='bc.ab']/field[@name='ab']" name="managedName">InvokeAb</attr>
-    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/class[@name='ab']/field[@name='ab']" name="managedName">InvokeAb</attr>
-    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/class[@name='bc']/field[@name='bc']" name="managedName">InvokeBc</attr>
-    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/class[@name='cd']/field[@name='cd']" name="managedName">InvokeCd</attr>
-    <attr path="/api/package[@name='com.huawei.hianalytics.ab.gh']/class[@name='ab']/field[@name='ab']" name="managedName">InvokeAb</attr>
-    <attr path="/api/package[@name='com.huawei.hianalytics.ab.cd.ab']/class[@name='bc']/field[@name='bc']" name="managedName">InvokeBc</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/class[@name='ab']" name="managedName">AbObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/class[@name='bc.ab']" name="managedName">AbObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/class[@name='ab']" name="managedName">AbObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/class[@name='bc']" name="managedName">CdObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.ef']/class[@name='cd']" name="managedName">CdObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/class[@name='cd']" name="managedName">CdObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.gh']/class[@name='ab']" name="managedName">AbObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.cd.ab']/class[@name='bc']" name="managedName">BcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/class[@name='ef']" name="managedName">EfObject</attr>
+
+
     <attr path="/api/package[@name='com.huawei.hms.utils']/class[@name='IOUtils']/method[@name='closeQuietly' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">CloseOutputStreamQuietly</attr>
     <attr path="/api/package[@name='com.huawei.hms.utils']/class[@name='IOUtils']/method[@name='closeQuietly' and count(parameter)=1 and parameter[1][@type='java.io.InputStream']]" name="managedName">CloseInputStreamQuietly</attr>
-    <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/interface[@name='fg']/method[@name='cd' and count(parameter)=0]" />
-    <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/interface[@name='fg']/method[@name='ab' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='byte[]']]" />
-    <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/interface[@name='fg']/method[@name='ab' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String']]" />
-    <remove-node path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolder']/method[@name='finalize' and count(parameter)=0]" />
     <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolderCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolderCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api']/class[@name='ResolvePendingResult']/method[@name='onComplete' and count(parameter)=1 and parameter[1][@type='T']]" name="managedReturn">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='DialogRedirectImpl']/method[@name='redirect' and count(parameter)=0]" name="visibility">protected</attr>
+  
+    <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/class[@name='ef']/method[@name='ab' and count(parameter)=1 and parameter[1][@type='com.huawei.hianalytics.ab.bc.cd.bc.cd']]" name="managedName">InvokeAb</attr>
+
+   <attr path="/api/package[@name='com.huawei.hianalytics.ab.bc.cd.bc']/interface[@name='fg']/method[@name='cd' and count(parameter)=0]" name="type">java.lang.Object</attr>
+
+    <remove-node path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolder']/method[@name='finalize' and count(parameter)=0]" />
     <remove-node path="/api/package[@name='com.huawei.hms.support.api.client']/class[@name='ResolvingResultCallbacks']/method[@name='onSuccess' and count(parameter)=1 and parameter[1][@type='R']]" />
+
+    <!--  <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/interface[@name='fg']/method[@name='ab' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='byte[]']]" />
+    <remove-node path="/api/package[@name='com.huawei.hianalytics.ab.bc.ab']/interface[@name='fg']/method[@name='ab' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String']]" />
+
+    <remove-node path="/api/package[@name='com.huawei.hms.support.api.client']/class[@name='ResolvingResultCallbacks']/method[@name='onSuccess' and count(parameter)=1 and parameter[1][@type='R']]" /> -->
     <add-node path="/api/package[@name='com.huawei.hms.support.api.client']/class[@name='ResolvingResultCallbacks']">
         <method name="onSuccess" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
             <parameter name="context" type="java.lang.Object" />
@@ -25,6 +37,7 @@
     <add-node path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DBInnerIter']">
         <method name="remove" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public" />
     </add-node>
+
     <!-- Renaming namespaces -->
     <attr path="/api/package[@name='com.huawei.hianalytics.hms']" name="managedName">Huawei.HiAnalytics.Hms</attr>
     <attr path="/api/package[@name='com.huawei.hianalytics.ab.ab']" name="managedName">Huawei.HiAnalytics.Ab.Ab</attr>
@@ -74,12 +87,10 @@
     <attr path="/api/package[@name='com.huawei.hms.core.aidl']" name="managedName">Huawei.Hms.Core.Aidl</attr>
     <attr path="/api/package[@name='com.huawei.hms.core.aidl.annotation']" name="managedName">Huawei.Hms.Core.Aidl.Annotation</attr>
     <attr path="/api/package[@name='com.huawei.hms.security']" name="managedName">Huawei.Hms.Security</attr>
-    <attr path="/api/package[@name='com.huawei.hms.support']" name="managedName">Huawei.Hms.Support</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.a']" name="managedName">Huawei.Hms.Support.A</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api']" name="managedName">Huawei.Hms.Support.Api</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.client']" name="managedName">Huawei.Hms.Support.Api.Client</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.core']" name="managedName">Huawei.Hms.Support.Api.Core</attr>
-    <attr path="/api/package[@name='com.huawei.hms.support.api.entity']" name="managedName">Huawei.Hms.Support.Api.Entity</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.auth']" name="managedName">Huawei.Hms.Support.Api.Entity.Auth</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.core']" name="managedName">Huawei.Hms.Support.Api.Entity.Core</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.transport']" name="managedName">Huawei.Hms.Support.Api.Transport</attr>
