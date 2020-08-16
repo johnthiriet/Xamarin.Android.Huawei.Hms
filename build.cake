@@ -17,7 +17,7 @@ var configuration = Argument("configuration", "Release");
 var artifacts = new [] {
     new Artifact {
         NativeVersion = "1.3.3.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "tasks",
         ProjectName = "HmsTasks",
         DownloadUrlPrefix = "hmf"
@@ -25,118 +25,118 @@ var artifacts = new [] {
 
     new Artifact {
         NativeVersion = "4.0.2.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "push",
         ProjectName = "HmsPush"
     },
     new Artifact {
         NativeVersion = "4.0.1.301",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "opendevice",
         ProjectName = "HmsOpenDevice"
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "maps",
         ProjectName = "HmsMaps"
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "maps-base",
         ProjectName = "HmsMapsBase"
     },
     new Artifact {
         NativeVersion = "4.0.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         DownloadUrl = "https://githubstore.blob.core.windows.net/huawei-aar/clustering-release.aar?sp=r&st=2020-08-03T15:33:43Z&se=2022-08-03T23:33:43Z&spr=https&sv=2019-12-12&sr=b&sig=mLCbWNm1MiTMbsqH2i5vidO61BXaydpUnI420TfhW2c%3D",
         AarName = "clustering",
         ProjectName = "HmsMapsClustering"
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "location",
         ProjectName = "HmsLocation"
     },
     new Artifact {
         NativeVersion = "1.0.13.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "dynamic-api",
         ProjectName = "HmsDynamicApi"
     },
     new Artifact {
         NativeVersion = "1.0.0.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "agconnect-core",
         ProjectName = "HmsAgconnectCore",
         DownloadUrlPrefix = "agconnect"
     },
     new Artifact {
         NativeVersion = "4.0.0.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "base",
         ProjectName = "HmsBase"
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "network-common",
         ProjectName = "HmsNetworkCommon"
     },
     new Artifact {
         NativeVersion = "4.0.2.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "network-grs",
         ProjectName = "HmsNetworkGrs"
     },
 
      new Artifact {
         NativeVersion = "2.0.6.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "update",
         ProjectName = "HmsUpdate"
     },
 
     new Artifact {
         NativeVersion = "2.0.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "ml-computer-commonutils-inner",
         ProjectName = "HmsMLCommonUtils",
     },
 
     new Artifact {
         NativeVersion = "2.0.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "ml-computer-ha-inner",
         ProjectName = "HmsMLHa",
     },
 
     new Artifact {
         NativeVersion = "2.0.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "ml-computer-camera-inner",
         ProjectName = "HmsMLCamera",
     },
 
     new Artifact {
         NativeVersion = "2.0.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "ml-computer-agc-inner",
         ProjectName = "HmsMLAgc",
     },
 
     new Artifact {
         NativeVersion = "2.0.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "ml-computer-sdkbase-inner",
         ProjectName = "HmsMLBase",
     },
 
     new Artifact {
         NativeVersion = "1.2.1.300",
-        NugetSuffix = "-rc2",
+        NugetSuffix = "-rc3",
         AarName = "scan",
         ProjectName = "HmsScan",
     }
@@ -225,7 +225,7 @@ Task("Pack")
 //////////////////////////////////////////////////////////////////////
 
 Task("Default")
-   // .IsDependentOn("Downloads")
+    .IsDependentOn("Downloads")
     .IsDependentOn("UpdateVersion")
     .IsDependentOn("Build")
     .IsDependentOn("Pack")
