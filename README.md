@@ -7,7 +7,7 @@ Nuget packages available in preview until we have many users :)
 - [Huawei.Hms.Push](https://www.nuget.org/packages/Xamarin.Android.Huawei.Hms.Push/)
 - [Huawei.Hms.Location](https://www.nuget.org/packages/Xamarin.Android.Huawei.Hms.Location/)
 - [Huawei.Hms.Scan](https://www.nuget.org/packages/Xamarin.Android.Huawei.Hms.Scan/)
-- [Huawei.Hms.Scan](https://www.nuget.org/packages/Xamarin.Android.Huawei.Hms.HiAnalytics/)
+- [Huawei.Hms.HiAnalytics](https://www.nuget.org/packages/Xamarin.Android.Huawei.Hms.HiAnalytics/)
 
 You can see a demo here :
 [https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms.Demo](https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms.Demo)
