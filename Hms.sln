@@ -41,6 +41,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsMLHa", "HmsMLHa\HmsMLHa.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsMLBase", "HmsMLBase\HmsMLBase.csproj", "{E79DA299-C4FA-447E-8D72-CA7F0C3E93F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsAgconnectCredential", "HmsAgconnectCredential\HmsAgconnectCredential.csproj", "{B238181A-53D3-41DC-B959-560FDB6A65B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsDataStoreCore", "HmsDataStoreCore\HmsDataStoreCore.csproj", "{8575BA5C-7D2F-467C-9AB6-58336B669D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsDataStoreAnnotation", "HmsDataStoreAnnotation\HmsDataStoreAnnotation.csproj", "{BCC1987A-A29D-4DAA-832F-817108E62480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsAgconnectHttps", "HmsAgconnectHttps\HmsAgconnectHttps.csproj", "{1107604D-1142-464D-B9E1-132B8E683026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsHiAnalytics", "HmsHiAnalytics\HmsHiAnalytics.csproj", "{D4C78315-0D29-4EB2-87CC-6F67A3AA877E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +133,26 @@ Global
 		{E79DA299-C4FA-447E-8D72-CA7F0C3E93F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E79DA299-C4FA-447E-8D72-CA7F0C3E93F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E79DA299-C4FA-447E-8D72-CA7F0C3E93F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B238181A-53D3-41DC-B959-560FDB6A65B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B238181A-53D3-41DC-B959-560FDB6A65B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B238181A-53D3-41DC-B959-560FDB6A65B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B238181A-53D3-41DC-B959-560FDB6A65B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8575BA5C-7D2F-467C-9AB6-58336B669D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8575BA5C-7D2F-467C-9AB6-58336B669D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8575BA5C-7D2F-467C-9AB6-58336B669D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8575BA5C-7D2F-467C-9AB6-58336B669D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC1987A-A29D-4DAA-832F-817108E62480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC1987A-A29D-4DAA-832F-817108E62480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC1987A-A29D-4DAA-832F-817108E62480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC1987A-A29D-4DAA-832F-817108E62480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1107604D-1142-464D-B9E1-132B8E683026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1107604D-1142-464D-B9E1-132B8E683026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1107604D-1142-464D-B9E1-132B8E683026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1107604D-1142-464D-B9E1-132B8E683026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C78315-0D29-4EB2-87CC-6F67A3AA877E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C78315-0D29-4EB2-87CC-6F67A3AA877E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C78315-0D29-4EB2-87CC-6F67A3AA877E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C78315-0D29-4EB2-87CC-6F67A3AA877E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

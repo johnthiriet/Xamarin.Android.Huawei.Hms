@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.cde']/class[@name='abc']" name="managedName">AbcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics']/class[@name='abc']" name="managedName">AbcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.abc']/class[@name='abc']" name="managedName">AbcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.cde.bcd']/class[@name='abc']" name="managedName">AbcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.def']/interface[@name='bcd']" name="managedName">IBcdObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.ikl']/class[@name='abc']" name="managedName">AbcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc']/class[@name='bcd']" name="managedName">BcdObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.bcd']/class[@name='abc']" name="managedName">AbcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc']/class[@name='bcd']" name="managedName">BcdObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.cde.bcd']/class[@name='cde']" name="managedName">CdeObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.cde.bcd']/class[@name='def']" name="managedName">DefObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.ikl.bcd']/class[@name='abc']" name="managedName">AbcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc']/class[@name='bcd.abc']" name="managedName">BcdAbcObject</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc']/class[@name='abc']" name="managedName">AbcObject</attr>
+    <add-node path="/api/package[@name='com.huawei.hms.analytics.abc.abc']/class[@name='abc']">
+        <method name="buildClient" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="context" type="android.content.Context" />
+            <parameter name="clientSettings" type="com.huawei.hms.common.internal.ClientSettings" />
+            <parameter name="onConnectionFailedListener" type="com.huawei.hms.common.internal.BaseHmsClient.OnConnectionFailedListener" />
+            <parameter name="connectionCallbacks" type="com.huawei.hms.common.internal.BaseHmsClient.ConnectionCallbacks" />
+        </method>
+    </add-node>
+    
+    <remove-node path="/api/package[@name='com.huawei.hms.analytics.abc.abc']/class[@name='efg']" />
+    
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.abc']" name="managedName">Huawei.HiAnalytics.Abc.Abc</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.bcd']" name="managedName">Huawei.HiAnalytics.Abc.Bcd</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.cde']" name="managedName">Huawei.HiAnalytics.Abc.Cde</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.def']" name="managedName">Huawei.HiAnalytics.Abc.Def</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc.abc']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Abc.Abc</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc.bcd']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Abc.Bcd</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc.cde']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Abc.Cde</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc.efg']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Abc.Efg</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc.fgh']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Abc.Fgh</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc.ghi']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Abc.Ghi</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.bcd.abc']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Bcd.Abc</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.bcd']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Bcd</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.cde.abc']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Cde.Abc</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.cde.bcd']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Cde.Bcd</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.def']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Def</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.efg']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Efg</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.fgh']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Fgh</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.ghi']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Ghi</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.hij']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Hij</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.ijk']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Ijk</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.ikl.abc']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Ikl.Abc</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.ikl.bcd']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Ikl.Bcd</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.ikl.cde']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Ikl.Cde</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.klm']" name="managedName">Huawei.HiAnalytics.Abc.Efg.Klm</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.fgh.abc']" name="managedName">Huawei.HiAnalytics.Abc.Fgh.Abc</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.ghi']" name="managedName">Huawei.HiAnalytics.Abc.Ghi</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.hij']" name="managedName">Huawei.HiAnalytics.Abc.Hij</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.ijk']" name="managedName">Huawei.HiAnalytics.Abc.Ijk</attr>
+    <attr path="/api/package[@name='com.huawei.hianalytics.abc.ikl']" name="managedName">Huawei.HiAnalytics.Abc.Ikl</attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.analytics.abc.abc']" name="managedName">Huawei.Hms.Analytics.Abc.Abc</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.abc']" name="managedName">Huawei.Hms.Analytics.Abc</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.connector']" name="managedName">Huawei.Hms.Analytics.Connector</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.internal.filter']" name="managedName">Huawei.Hms.Analytics.Internal.Filter</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.receiver']" name="managedName">Huawei.Hms.Analytics.Receiver</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.type']" name="managedName">Huawei.Hms.Analytics.Type</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics']" name="managedName">Huawei.Hms.Analytics</attr>
+</metadata>

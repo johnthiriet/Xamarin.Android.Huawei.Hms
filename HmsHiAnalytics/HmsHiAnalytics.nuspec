@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.HiAnalytics</id>
+    <version>5.0.0.301-rc4</version>
+    <title>Xamarin Huawei HiAnalytics SDK</title>
+    <description>Xamarin Binding Library - Huawei HiAnalytics SDK.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the HiAnalytics SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS, HiAnalytics, Analytics</tags>
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Android.Huawei.Agconnect.Credential" version="1.0.0.300-rc4" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="4.0.0.300-rc4" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="4.0.1.301-rc4" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkCommon" version="4.0.2.300-rc4" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="4.0.2.300-rc4" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.3.3.300-rc4" include="contentFiles, build" />
+      </group>
+      <group targetFramework="MonoAndroid9.0">
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
