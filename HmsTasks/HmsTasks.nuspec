@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hmf.Tasks</id>
-    <version>1.3.3.300-rc4</version>
+    <version>1.3.3.300</version>
     <title>Xamarin Huawei Hms Tasks SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Tasks SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>

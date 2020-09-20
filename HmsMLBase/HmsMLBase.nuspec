@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.ML.Base</id>
-    <version>2.0.1.300-rc4</version>
+    <version>2.0.1.300</version>
     <title>Xamarin Huawei Hms ML Base SDK</title>
     <description>Xamarin Binding Library - Huawei Hms ML Base SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -15,7 +15,7 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Scan, ML</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.ML.CommonUtils" version="2.0.1.300-rc4" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.ML.CommonUtils" version="2.0.1.300" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
       </group>
