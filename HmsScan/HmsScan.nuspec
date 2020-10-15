@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Scan</id>
-    <version>4.0.1.300</version>
+    <version>1.2.3.300-rc1</version>
     <title>Xamarin Huawei Hms Scan SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Scan SDK.</description>
     <authors>John Thiriet</authors>
@@ -15,9 +15,12 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Scan</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.ML.Agc" version="2.0.1.300" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.ML.Base" version="2.0.1.300" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.ML.Camera" version="2.0.1.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.Core" version="1.4.0.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="4.0.18.301-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.ML.Base" version="2.0.3.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.ML.Camera" version="2.0.3.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.13.303-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.4.1.300-rc1" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
       </group>

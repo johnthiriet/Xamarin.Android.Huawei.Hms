@@ -4,4 +4,9 @@
     <attr path="/api/package[@name='com.huawei.hms.framework.common']/class[@name='IoUtils']/method[@name='closeSecure' and count(parameter)=1 and parameter[1][@type='java.io.InputStream']]" name="managedName">CloseInputStreamSecure</attr>
     <attr path="/api/package[@name='com.huawei.hms.framework.common']" name="managedName">Huawei.Hms.Framework.Common</attr>
     <attr path="/api/package[@name='com.huawei.hms.framework.common.hianalytics']" name="managedName">Huawei.Hms.Framework.Common.HiAnalytics</attr>
+    <add-node path="/api/package[@name='com.huawei.hms.framework.common']/class[@name='RunnableScheduledFutureEnhance']">
+        <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="context" type="java.lang.Object" />
+        </method>
+    </add-node>
 </metadata>

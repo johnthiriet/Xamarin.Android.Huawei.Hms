@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsMLCommonUtils</RootNamespace>
-    <AssemblyName>HmsMLCommonUtils</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.ML.CommonUtils</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.ML.CommonUtils</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -55,7 +55,17 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\ml-computer-commonutils-inner-2.0.1.300.aar" />
+    <LibraryProjectZip Include="Jars\ml-computer-commonutils-inner-2.0.3.300.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">
+      <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
+      <Name>HmsNetworkGrs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsNetworkCommon\HmsNetworkCommon.csproj">
+      <Project>{90222D28-36C8-4414-BB6D-2F9BE266DF0B}</Project>
+      <Name>HmsNetworkCommon</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

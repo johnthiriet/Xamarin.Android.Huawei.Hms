@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsNetworkGrs</RootNamespace>
-    <AssemblyName>HmsNetworkGrs</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.NetworkGrs</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.NetworkGrs</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -51,7 +51,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\network-grs-4.0.2.300.aar" />
+    <LibraryProjectZip Include="Jars\network-grs-4.0.18.301.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />

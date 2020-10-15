@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsMapsClustering</RootNamespace>
-    <AssemblyName>HmsMapsClustering</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.Maps.Clustering</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.Maps.Clustering</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -54,13 +54,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\clustering-4.0.1.300.aar" />
+    <LibraryProjectZip Include="Jars\clustering-5.0.2.300.aar" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HmsMapsBase\HmsMapsBase.csproj">
-      <Project>{DD0B3919-DB1D-4284-BCE4-DAFDE704EE07}</Project>
-      <Name>HmsMapsBase</Name>
-    </ProjectReference>
     <ProjectReference Include="..\HmsMaps\HmsMaps.csproj">
       <Project>{AEB8036C-7D71-49E0-870C-A0FBCDC13827}</Project>
       <Name>HmsMaps</Name>

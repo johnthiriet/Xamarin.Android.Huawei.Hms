@@ -1,6 +1,42 @@
 ﻿<metadata>
-  <attr path="/api/package[@name='com.huawei.hms.maps']" name="managedName">Huawei.Hms.Maps</attr>
-  <attr path="/api/package[@name='com.huawei.hms.maps.model']" name="managedName">Huawei.Hms.Maps.Model</attr>
-  <attr path="/api/package[@name='com.huawei.hms.maps.common.util']" name="managedName">Huawei.Hms.Maps.Common.Util</attr>
-  <attr path="/api/package[@name='com.huawei.hms.maps.util']" name="managedName">Huawei.Hms.Maps.Util</attr>
+<!--    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='getTilt']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='getZoom']" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='getBearing']" name="propertyName"></attr>-->
+    
+    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='bearing']" />
+    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='zoom']" />
+    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='tilt']" />
+    
+    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaOrientation.Builder']/method[@name='tilt']" />
+    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaOrientation.Builder']/method[@name='bearing']" />
+    
+    <!-- Prevent invalid property generation since these methods are not properties but builder methods -->
+    <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getDuration']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getInterpolator']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getFillMode']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getRepeatCount']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getRepeatMode']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getListener']" name="propertyName"/>
+
+    <remove-node path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='a']"/>
+    
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getCenter']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getRadius']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getFillColor']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getStrokeColor']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getStrokeWidth']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getStrokePattern']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='CircleOptions']/method[@name='getZIndex']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getAlpha']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getIcon']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getPosition']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getRotation']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getSnippet']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getTitle']" name="propertyName"/>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='getZIndex']" name="propertyName"/>
+
+    
+    <attr path="/api/package[@name='com.huawei.hms.maps']" name="managedName">Huawei.Hms.Maps</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.model']" name="managedName">Huawei.Hms.Maps.Model</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.common.util']" name="managedName">Huawei.Hms.Maps.Common.Util</attr>
 </metadata>

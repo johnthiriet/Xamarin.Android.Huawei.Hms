@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
     <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='ApkUpgradeInfo']" name="extends">Java.Lang.Object</attr>
-   
-
     <attr path="/api/package[@name='com.huawei.updatesdk']" name="managedName">Huawei.UpdateSdk</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.a.a.a']" name="managedName">Huawei.UpdateSdk.A.A.A</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.a.a.b.a.a']" name="managedName">Huawei.UpdateSdk.A.A.B.A.A</attr>

@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsAgconnectCore</RootNamespace>
-    <AssemblyName>HmsAgconnectCore</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Agconnect.Core</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Agconnect.Core</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -51,7 +51,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\agconnect-core-1.0.0.300.aar" />
+    <LibraryProjectZip Include="Jars\agconnect-core-1.4.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
