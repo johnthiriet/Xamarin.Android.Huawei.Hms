@@ -117,6 +117,10 @@
       <Project>{ECA9552C-302E-47E4-9188-BC8009296CBC}</Project>
       <Name>HmsDynamicApi</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HmsAvailableUpdate\HmsAvailableUpdate.csproj">
+      <Project>{1F6D4AE0-FEB5-4DBE-A874-E8EF04BCCC74}</Project>
+      <Name>HmsAvailableUpdate</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
