@@ -2,6 +2,6 @@
 <metadata>
     <attr path="/api/package[@name='com.huawei.hms.stats']" name="managedName">Huawei.Hms.Stats</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.hianalytics']" name="managedName">Huawei.Hms.Support.HiAnalytics</attr>
-    <attr path="/api/package[@name='com.huawei.hms.support.utils']" name="managedName">Huawei.Hms.Utils</attr>
-    <attr path="/api/package[@name='com.huawei.hms.support.utils.countrycode']" name="managedName">Huawei.Hms.Utils.CountryCode</attr>
+    <attr path="/api/package[@name='com.huawei.hms.utils']" name="managedName">Huawei.Hms.Utils</attr>
+    <attr path="/api/package[@name='com.huawei.hms.utils.countrycode']" name="managedName">Huawei.Hms.Utils.CountryCode</attr>
 </metadata>

@@ -1,15 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
+    
+<!--    <add-node path="/api/package[@name='com.huawei.hms.support.api.transport']/interface[@name='DatagramTransport.a']">
+        <method name="a" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="param1int" type="int" />
+            <parameter name="messageEntity" type="com.huawei.hms.core.aidl.MessageEntity" />
+        </method>
+    </add-node>-->
+    
     <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolderCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolderCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api']/class[@name='ResolvePendingResult']/method[@name='onComplete' and count(parameter)=1 and parameter[1][@type='T']]" name="managedReturn">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='DialogRedirectImpl']/method[@name='redirect' and count(parameter)=0]" name="visibility">protected</attr>
-
+    
+    <!--
+    <attr path="/api/package[@name='com.huawei.hms.support.api.transport']/interface[@name='DatagramTransport.a']/method[@name='send']/parameter[2]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.transport']/interface[@name='DatagramTransport.a']/method[@name='post']/parameter[2]" name="managedType">Java.Lang.Object</attr>
+    -->
     <remove-node path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolder']/method[@name='finalize' and count(parameter)=0]" />
     <remove-node path="/api/package[@name='com.huawei.hms.support.api.client']/class[@name='ResolvingResultCallbacks']/method[@name='onSuccess' and count(parameter)=1 and parameter[1][@type='R']]" />
-  
-    <!-- Change base type -->
-    <attr path="/api/package[@name='com.huawei.hms.support.hianalytics']/class[@name='HiAnalyticsClient']" name="extends">Java.Lang.Object</attr>-->
+
+    <attr path="/api/package[@name='com.huawei.hms.support.hianalytics']/class[@name='HiAnalyticsClient']" name="extends">Java.Lang.Object</attr>
     
     <add-node path="/api/package[@name='com.huawei.hms.support.api.client']/class[@name='ResolvingResultCallbacks']">
         <method name="onSuccess" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">

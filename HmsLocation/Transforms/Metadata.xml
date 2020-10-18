@@ -12,6 +12,7 @@
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.activityrecognition']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.ActivityRecognition</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.checksettings']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.CheckSettings</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.common']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.enhance']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Enhance</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.fence']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Fence</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.lastlocation']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.LastLocation</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.locationavailability']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.LocationAvailability</attr>
