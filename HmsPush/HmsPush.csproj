@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\push-5.0.2.300.aar" />
+    <LibraryProjectZip Include="Jars\push-5.0.4.302.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsOpenDevice\HmsOpenDevice.csproj">

@@ -49,7 +49,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\availableupdate-5.0.0.301.aar" />
+    <LibraryProjectZip Include="Jars\availableupdate-5.1.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -65,10 +65,6 @@
       <Project>{54CDB1BA-F1B2-4190-83D3-21D70485D0E1}</Project>
       <Name>HmsUpdate</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HmsTasks\HmsTasks.csproj">
-      <Project>{29D87097-7813-4EF0-8B7F-1B153E41A774}</Project>
-      <Name>HmsTasks</Name>
-    </ProjectReference>
     <ProjectReference Include="..\HmsLog\HmsLog.csproj">
       <Project>{532A8F50-9811-43EA-A9D7-8753234946D7}</Project>
       <Name>HmsLog</Name>
@@ -76,6 +72,10 @@
     <ProjectReference Include="..\HmsDevice\HmsDevice.csproj">
       <Project>{1F6C37CA-6D89-4F3B-8683-CE7ADD7E2677}</Project>
       <Name>HmsDevice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsStats\HmsStats.csproj">
+      <Project>{83F9E854-C6AF-4F54-8590-201146088638}</Project>
+      <Name>HmsStats</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

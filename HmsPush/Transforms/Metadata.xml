@@ -1,12 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
+    <attr path="/api/package[@name='com.huawei.hms.push.task']/class[@name='IntentCallable']/method[@name='call']" name="managedReturn">Java.Lang.Object</attr>    
+
     <attr path="/api/package[@name='com.huawei.hms.push']" name="managedName">Huawei.Hms.Push</attr>
     <attr path="/api/package[@name='com.huawei.hms.push.constant']" name="managedName">Huawei.Hms.Push.Constant</attr>
+    <attr path="/api/package[@name='com.huawei.hms.push.task']" name="managedName">Huawei.Hms.Push.Task</attr>
     <attr path="/api/package[@name='com.huawei.hms.push.ups']" name="managedName">Huawei.Hms.Push.Ups</attr>
     <attr path="/api/package[@name='com.huawei.hms.push.ups.entity']" name="managedName">Huawei.Hms.Push.Ups.Entity</attr>
     <attr path="/api/package[@name='com.huawei.hms.push.utils']" name="managedName">Huawei.Hms.Push.Utils</attr>
     <attr path="/api/package[@name='com.huawei.hms.push.utils.ha']" name="managedName">Huawei.Hms.Push.Utils.HA</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.push']" name="managedName">Huawei.Hms.Support.Api.Entity.Push</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.push']" name="managedName">Huawei.Hms.Support.Api.Push</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.base']" name="managedName">Huawei.Hms.Support.Api.Push.Base</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.base']" name="managedName">Huawei.Hms.Support.Api.Push.Base</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.pushselfshow']" name="managedName">Huawei.Hms.Support.Api.Push.PushSelfShow</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.pushselfshow.click']" name="managedName">Huawei.Hms.Support.Api.Push.PushSelfShow.Click</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.pushselfshow.entity']" name="managedName">Huawei.Hms.Support.Api.Push.PushSelfShow.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.pushselfshow.prepare']" name="managedName">Huawei.Hms.Support.Api.Push.PushSelfShow.Prepare</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.pushselfshow.utils']" name="managedName">Huawei.Hms.Support.Api.Push.PushSelfShow.Utils</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.push.service']" name="managedName">Huawei.Hms.Support.Api.Push.Service</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.utils']" name="managedName">Huawei.Hms.Support.Api.Push.Utils</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.utils.common']" name="managedName">Huawei.Hms.Support.Api.Push.Utils.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.push.utils.common.base']" name="managedName">Huawei.Hms.Support.Api.Push.Utils.Common.Base</attr>
+    
 </metadata>

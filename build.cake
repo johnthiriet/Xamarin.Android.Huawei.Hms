@@ -17,72 +17,72 @@ var configuration = Argument("configuration", "Release");
 var artifacts = new [] {
     new Artifact {
         NativeVersion = "1.4.1.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "tasks",
         ProjectName = "HmsTasks",
         DownloadUrlPrefix = "hmf"
     },
     new Artifact {
-        NativeVersion = "5.0.2.300",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.0.4.302",
+        NugetSuffix = "",
         AarName = "push",
         ProjectName = "HmsPush"
     },
     new Artifact {
-        NativeVersion = "5.0.2.300",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.0.4.301",
+        NugetSuffix = "",
         AarName = "opendevice",
         ProjectName = "HmsOpenDevice"
     },
     new Artifact {
-        NativeVersion = "5.0.2.300",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
         AarName = "maps",
         ProjectName = "HmsMaps"
     },
     new Artifact {
-        NativeVersion = "5.0.2.300",
-        NugetSuffix = "-rc1",
-        DownloadUrl = "https://githubstore.blob.core.windows.net/huawei-aar/clustering-release.aar?sp=r&st=2020-08-03T15:33:43Z&se=2022-08-03T23:33:43Z&spr=https&sv=2019-12-12&sr=b&sig=mLCbWNm1MiTMbsqH2i5vidO61BXaydpUnI420TfhW2c%3D",
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
+        DownloadUrl = "https://githubstore.blob.core.windows.net/huawei-aar/clustering-5.1.0.300.aar?sp=r&st=2021-01-19T11:38:18Z&se=2022-01-19T19:38:18Z&spr=https&sv=2019-12-12&sr=b&sig=u0AuiaLX%2FDGnh7SRZoLP4bkKrekdegTHmGrW4YSdqLs%3D",
         AarName = "clustering",
         ProjectName = "HmsMapsClustering"
     },
     new Artifact {
-        NativeVersion = "5.0.2.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
         AarName = "location",
         ProjectName = "HmsLocation"
     },
     new Artifact {
-        NativeVersion = "1.0.13.303",
-        NugetSuffix = "-rc1",
+        NativeVersion = "1.0.15.302",
+        NugetSuffix = "",
         AarName = "dynamic-api",
         ProjectName = "HmsDynamicApi"
     },
     new Artifact {
-        NativeVersion = "1.4.0.300",
-        NugetSuffix = "-rc1",
+        NativeVersion = "1.4.2.300",
+        NugetSuffix = "",
         AarName = "agconnect-core",
         ProjectName = "HmsAgconnectCore",
         DownloadUrlPrefix = "agconnect"
     },
     new Artifact {
         NativeVersion = "1.4.0.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "agconnect-credential",
         ProjectName = "HmsAgconnectCredential",
         DownloadUrlPrefix = "agconnect"
     },
     new Artifact {
         NativeVersion = "1.4.0.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "agconnect-https",
         ProjectName = "HmsAgconnectHttps",
         DownloadUrlPrefix = "agconnect"
     },
     new Artifact {
         NativeVersion = "1.4.0.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "datastore-annotation",
         ProjectName = "HmsDataStoreAnnotation",
         DownloadUrlPrefix = "agconnect",
@@ -90,127 +90,165 @@ var artifacts = new [] {
     },
     new Artifact {
         NativeVersion = "1.4.0.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "datastore-core",
         ProjectName = "HmsDataStoreCore",
         DownloadUrlPrefix = "agconnect",
     },
     new Artifact {
-        NativeVersion = "5.0.3.300",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.301",
+        NugetSuffix = "",
         AarName = "hianalytics",
         ProjectName = "HmsHiAnalytics",
     },
     new Artifact {
-        NativeVersion = "5.0.0.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.301",
+        NugetSuffix = "",
+        AarName = "hianalytics-core",
+        JarExtension = "jar",
+        ProjectName = "HmsHiAnalyticsCore",
+    },
+    new Artifact {
+        NativeVersion = "5.1.0.301",
+        NugetSuffix = "",
+        AarName = "hianalytics-framework",
+        JarExtension = "jar",
+        ProjectName = "HmsHiAnalyticsFramework",
+    },
+    new Artifact {
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
         AarName = "base",
         ProjectName = "HmsBase"
     },
     new Artifact {
-        NativeVersion = "4.0.18.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "4.0.20.301",
+        NugetSuffix = "",
         AarName = "network-common",
         ProjectName = "HmsNetworkCommon"
     },
     new Artifact {
-        NativeVersion = "4.0.18.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "4.0.20.301",
+        NugetSuffix = "",
         AarName = "network-grs",
         ProjectName = "HmsNetworkGrs"
     },
-     new Artifact {
-        NativeVersion = "2.0.6.302",
-        NugetSuffix = "-rc1",
+    new Artifact {
+        NativeVersion = "4.0.20.301",
+        NugetSuffix = "",
+        AarName = "network-framework-compat",
+        ProjectName = "HmsNetworkFrameworkCompat"
+    },
+    new Artifact {
+        NativeVersion = "2.0.7.302",
+        NugetSuffix = "",
         AarName = "update",
         ProjectName = "HmsUpdate"
     },
     new Artifact {
         NativeVersion = "2.0.3.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "ml-computer-commonutils-inner",
         ProjectName = "HmsMLCommonUtils",
     },
     new Artifact {
         NativeVersion = "2.0.3.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "ml-computer-ha-inner",
         ProjectName = "HmsMLHa",
     },
     new Artifact {
         NativeVersion = "2.0.3.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "ml-computer-camera-inner",
         ProjectName = "HmsMLCamera",
     },
     new Artifact {
         NativeVersion = "2.0.3.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "ml-computer-agc-inner",
         ProjectName = "HmsMLAgc",
     },
     new Artifact {
         NativeVersion = "2.0.3.300",
-        NugetSuffix = "-rc1",
+        NugetSuffix = "",
         AarName = "ml-computer-sdkbase-inner",
         ProjectName = "HmsMLBase",
     },
     new Artifact {
-        NativeVersion = "1.2.3.300",
-        NugetSuffix = "-rc1",
+        NativeVersion = "1.2.5.300",
+        NugetSuffix = "",
         AarName = "scan",
         ProjectName = "HmsScan",
     },
     new Artifact {
-        NativeVersion = "1.1.5.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "1.1.5.302",
+        NugetSuffix = "",
         AarName = "security-base",
         ProjectName = "HmsSecurityBase",
         DownloadUrlPrefix = "android/hms"
     },
     new Artifact {
-        NativeVersion = "1.1.5.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "1.1.5.302",
+        NugetSuffix = "",
         AarName = "security-encrypt",
         ProjectName = "HmsSecurityEncrypt",
         DownloadUrlPrefix = "android/hms"
     },
     new Artifact {
-        NativeVersion = "1.1.5.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "1.1.5.302",
+        NugetSuffix = "",
         AarName = "security-ssl",
         ProjectName = "HmsSecuritySsl",
         DownloadUrlPrefix = "android/hms"
     },
     new Artifact {
-        NativeVersion = "5.0.0.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
         AarName = "availableupdate",
         ProjectName = "HmsAvailableUpdate"
     },
     new Artifact {
-        NativeVersion = "5.0.0.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
         AarName = "device",
         ProjectName = "HmsDevice"
     },
     new Artifact {
-        NativeVersion = "5.0.0.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
         AarName = "log",
         ProjectName = "HmsLog"
     },
     new Artifact {
-        NativeVersion = "5.0.0.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
         AarName = "stats",
         ProjectName = "HmsStats"
     },
     new Artifact {
-        NativeVersion = "5.0.0.301",
-        NugetSuffix = "-rc1",
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
         AarName = "ui",
         ProjectName = "HmsUI"
+    },
+    new Artifact {
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
+        AarName = "dtm-api",
+        ProjectName = "HmsDtmApi"
+    },
+    new Artifact {
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
+        AarName = "dtm-core",
+        ProjectName = "HmsDtmCore"
+    },
+    new Artifact {
+        NativeVersion = "5.1.0.300",
+        NugetSuffix = "",
+        AarName = "hatool",
+        ProjectName = "HmsHaTool"
     }
 };
 
@@ -255,16 +293,12 @@ Task("UpdateVersion")
 Task("Build")
     .Does(() =>
 {
-    foreach(var artifact in artifacts) {
-        NuGetRestore(artifact.SolutionPath);
-        MSBuild(artifact.SolutionPath, settings => {
-            settings.ToolVersion = MSBuildToolVersion.VS2019;
-            settings.SetConfiguration(configuration);
-            settings.WithTarget("Rebuild");
-        });
-
-        break;
-    }
+    NuGetRestore(artifacts[0].SolutionPath);
+        MSBuild(artifacts[0].SolutionPath, settings => {
+        settings.ToolVersion = MSBuildToolVersion.VS2019;
+        settings.SetConfiguration(configuration);
+        settings.WithTarget("Rebuild");
+    });
 });
 
 Task("Pack")

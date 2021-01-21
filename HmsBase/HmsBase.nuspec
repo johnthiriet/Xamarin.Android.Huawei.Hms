@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Base</id>
-    <version>5.0.0.301-rc1</version>
+    <version>5.1.0.300</version>
     <title>Xamarin Huawei Hms Base SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Base SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -15,13 +15,13 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.AvailableUpdate" version="5.0.0.301-rc1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Stats" version="5.0.0.301-rc1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.UI" version="5.0.0.301-rc1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Device" version="5.0.0.301-rc1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Log" version="5.0.0.301-rc1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.4.1.300-rc1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.13.303-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.AvailableUpdate" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Stats" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.UI" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Device" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Log" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.4.1.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.15.302" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
       </group>

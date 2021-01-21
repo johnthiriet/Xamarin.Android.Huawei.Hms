@@ -1,22 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-    
-<!--    <add-node path="/api/package[@name='com.huawei.hms.support.api.transport']/interface[@name='DatagramTransport.a']">
-        <method name="a" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
-            <parameter name="param1int" type="int" />
-            <parameter name="messageEntity" type="com.huawei.hms.core.aidl.MessageEntity" />
-        </method>
-    </add-node>-->
-    
+<metadata>    
     <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolderCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolderCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api']/class[@name='ResolvePendingResult']/method[@name='onComplete' and count(parameter)=1 and parameter[1][@type='T']]" name="managedReturn">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='DialogRedirectImpl']/method[@name='redirect' and count(parameter)=0]" name="visibility">protected</attr>
     
-    <!--
-    <attr path="/api/package[@name='com.huawei.hms.support.api.transport']/interface[@name='DatagramTransport.a']/method[@name='send']/parameter[2]" name="managedType">Java.Lang.Object</attr>
-    <attr path="/api/package[@name='com.huawei.hms.support.api.transport']/interface[@name='DatagramTransport.a']/method[@name='post']/parameter[2]" name="managedType">Java.Lang.Object</attr>
-    -->
+    <attr path="/api/package[@name='com.huawei.hms.common']/class[@name='FeatureCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common']/class[@name='FeatureCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.common.webserverpic']/class[@name='WebServerPicCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common.webserverpic']/class[@name='WebServerPicCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+    
+    <remove-node path="/api/package[@name='com.huawei.hms.common.internal']/class[@name='TaskApiCall']/method[@name='doExecute']" />
     <remove-node path="/api/package[@name='com.huawei.hms.common.data']/class[@name='DataHolder']/method[@name='finalize' and count(parameter)=0]" />
     <remove-node path="/api/package[@name='com.huawei.hms.support.api.client']/class[@name='ResolvingResultCallbacks']/method[@name='onSuccess' and count(parameter)=1 and parameter[1][@type='R']]" />
 
@@ -32,7 +27,7 @@
     </add-node>
 
     <!-- Renaming namespaces -->
-   
+  
     <attr path="/api/package[@name='com.huawei.hms.actions']" name="managedName">Huawei.Hms.Actions</attr>
     <attr path="/api/package[@name='com.huawei.hms.activity']" name="managedName">Huawei.Hms.Activity</attr>
     <attr path="/api/package[@name='com.huawei.hms.activity.internal']" name="managedName">Huawei.Hms.Activity.Internal</attr>
@@ -40,13 +35,13 @@
     <attr path="/api/package[@name='com.huawei.hms.adapter.internal']" name="managedName">Huawei.Hms.Adapter.Internal</attr>
     <attr path="/api/package[@name='com.huawei.hms.api']" name="managedName">Huawei.Hms.Api</attr>
     <attr path="/api/package[@name='com.huawei.hms.common']" name="managedName">Huawei.Hms.Common</attr>
-    <attr path="/api/package[@name='com.huawei.hms.common.a']" name="managedName">Huawei.Hms.Common.A</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.api']" name="managedName">Huawei.Hms.Common.Api</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.api.internal']" name="managedName">Huawei.Hms.Common.Api.Internal</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.data']" name="managedName">Huawei.Hms.Common.Data</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.internal']" name="managedName">Huawei.Hms.Common.Internal</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.internal.safeparcel']" name="managedName">Huawei.Hms.Common.Internal.SafeParcel</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.size']" name="managedName">Huawei.Hms.Common.Size</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common.sqlite']" name="managedName">Huawei.Hms.Common.S</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.util']" name="managedName">Huawei.Hms.Common.Util</attr>
     <attr path="/api/package[@name='com.huawei.hms.common.webserverpic']" name="managedName">Huawei.Hms.Common.WebServicePic</attr>
     <attr path="/api/package[@name='com.huawei.hms.core.aidl']" name="managedName">Huawei.Hms.Core.Aidl</attr>

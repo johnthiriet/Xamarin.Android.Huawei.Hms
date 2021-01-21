@@ -58,17 +58,13 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\update-2.0.6.302.aar" />
+    <LibraryProjectZip Include="Jars\update-2.0.7.302.aar" />
   </ItemGroup>
   <ItemGroup>
       <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">
         <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
       <Name>HmsNetworkGrs</Name>
     </ProjectReference>
-      <ProjectReference Include="..\HmsNetworkCommon\HmsNetworkCommon.csproj">
-        <Project>{90222D28-36C8-4414-BB6D-2F9BE266DF0B}</Project>
-        <Name>HmsNetworkCommon</Name>
-      </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

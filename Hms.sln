@@ -65,6 +65,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsSecuritySsl", "HmsSecuri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsSecurityEncrypt", "HmsSecurityEncrypt\HmsSecurityEncrypt.csproj", "{B2888D15-05FE-42A5-94A7-322D065066D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsNetworkFrameworkCompat", "HmsNetworkFrameworkCompat\HmsNetworkFrameworkCompat.csproj", "{425699AB-75F4-4194-A4A0-E677FDED44EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsDtmApi", "HmsDtmApi\HmsDtmApi.csproj", "{B1D8A0D1-6CB8-4C1A-9C4B-FA83EF1B1C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsDtmCore", "HmsDtmCore\HmsDtmCore.csproj", "{44837665-4A20-44D6-BC46-EC844BDFC23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsHaTool", "HmsHaTool\HmsHaTool.csproj", "{4D108EAB-7220-4C9A-A25C-14C4D8940C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsHiAnalyticsCore", "HmsHiAnalyticsCore\HmsHiAnalyticsCore.csproj", "{514D7F51-84DC-4CBB-BD6D-C4AB591053B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsHiAnalyticsFramework", "HmsHiAnalyticsFramework\HmsHiAnalyticsFramework.csproj", "{48A2EC42-EB23-4A82-8976-560BA99E3145}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +207,30 @@ Global
 		{B2888D15-05FE-42A5-94A7-322D065066D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2888D15-05FE-42A5-94A7-322D065066D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2888D15-05FE-42A5-94A7-322D065066D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425699AB-75F4-4194-A4A0-E677FDED44EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425699AB-75F4-4194-A4A0-E677FDED44EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425699AB-75F4-4194-A4A0-E677FDED44EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425699AB-75F4-4194-A4A0-E677FDED44EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D8A0D1-6CB8-4C1A-9C4B-FA83EF1B1C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D8A0D1-6CB8-4C1A-9C4B-FA83EF1B1C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D8A0D1-6CB8-4C1A-9C4B-FA83EF1B1C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D8A0D1-6CB8-4C1A-9C4B-FA83EF1B1C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44837665-4A20-44D6-BC46-EC844BDFC23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44837665-4A20-44D6-BC46-EC844BDFC23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44837665-4A20-44D6-BC46-EC844BDFC23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44837665-4A20-44D6-BC46-EC844BDFC23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D108EAB-7220-4C9A-A25C-14C4D8940C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D108EAB-7220-4C9A-A25C-14C4D8940C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D108EAB-7220-4C9A-A25C-14C4D8940C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D108EAB-7220-4C9A-A25C-14C4D8940C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514D7F51-84DC-4CBB-BD6D-C4AB591053B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514D7F51-84DC-4CBB-BD6D-C4AB591053B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514D7F51-84DC-4CBB-BD6D-C4AB591053B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514D7F51-84DC-4CBB-BD6D-C4AB591053B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A2EC42-EB23-4A82-8976-560BA99E3145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A2EC42-EB23-4A82-8976-560BA99E3145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A2EC42-EB23-4A82-8976-560BA99E3145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A2EC42-EB23-4A82-8976-560BA99E3145}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

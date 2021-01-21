@@ -51,7 +51,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\network-grs-4.0.18.301.aar" />
+    <LibraryProjectZip Include="Jars\network-grs-4.0.20.301.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -59,9 +59,17 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HmsNetworkFrameworkCompat\HmsNetworkFrameworkCompat.csproj">
+      <Project>{425699AB-75F4-4194-A4A0-E677FDED44EF}</Project>
+      <Name>HmsNetworkFrameworkCompat</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HmsNetworkCommon\HmsNetworkCommon.csproj">
-      <Project>{90222d28-36c8-4414-bb6d-2f9be266df0b}</Project>
+      <Project>{90222D28-36C8-4414-BB6D-2F9BE266DF0B}</Project>
       <Name>HmsNetworkCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecuritySsl\HmsSecuritySsl.csproj">
+      <Project>{D5847B7E-7D30-4512-8DF3-90EC48F6B38D}</Project>
+      <Name>HmsSecuritySsl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

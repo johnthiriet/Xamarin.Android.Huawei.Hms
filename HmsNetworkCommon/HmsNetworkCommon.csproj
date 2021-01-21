@@ -51,7 +51,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\network-common-4.0.18.301.aar" />
+    <LibraryProjectZip Include="Jars\network-common-4.0.20.301.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />

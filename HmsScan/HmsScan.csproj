@@ -55,7 +55,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\scan-1.2.3.300.aar" />
+    <LibraryProjectZip Include="Jars\scan-1.2.5.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsAgconnectCore\HmsAgconnectCore.csproj">

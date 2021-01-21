@@ -1,117 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
+    <remove-node path="/api/package[starts-with(@name, 'com.huawei.updatesdk.a')]" />
+    <remove-node path="/api/package[starts-with(@name, 'com.huawei.updatesdk.b')]" />
     <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='ApkUpgradeInfo']" name="extends">Java.Lang.Object</attr>
-    <!--<attr path="/api/package[@name='com.huawei.updatesdk.a.b.b']/class[@name='b']" name="extends">Java.Lang.Object</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.a']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.a']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.a']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.a']/class[@name='d']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.a']/class[@name='e']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='d']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='e']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='f']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='g']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.a']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.a']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b.a']/interface[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b.a']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b.a']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b.a']/class[@name='d']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.b.a.a']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.a']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.c']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.c']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d.a']/interface[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d.a']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d.a']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d.a']/class[@name='d']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b.a']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.a']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.a']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.a']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.a']/class[@name='d']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.f']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.f']/interface[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/interface[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='d']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='e']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='f']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='g']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='h']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='i']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='d']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='e']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='f']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='g']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='h']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.d.a']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.d.a']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.d.a']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.e']/class[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.e']/class[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.e']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.b']/interface[@name='a']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.b']/interface[@name='b']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.b']/class[@name='c']" name="obfuscated">false</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='a']" name="managedName">AObject</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d']/class[@name='a']" name="managedName">AObject</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b']/class[@name='a']" name="managedName">AObject</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']/class[@name='b']" name="managedName">BObject</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b']/class[@name='a']" name="managedName">AObject</attr>
-    <add-node path="/api/package[@name='com.huawei.updatesdk.service.c']/class[@name='b']">
-        <method name="compare" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
-            <parameter name="o1" type="java.lang.Object" />
-            <parameter name="o2" type="java.lang.Object" />
-        </method>
-    </add-node>
-    <add-node path="/api/package[@name='com.huawei.updatesdk.a.b.d']/class[@name='b']">
-        <method name="doInBackground" return="Java.Lang.Object" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="protected">
-            <parameter name="parameters" type="java.lang.Object[]" />
-        </method>
-    </add-node>
-    <add-node path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']/class[@name='e']">
-        <method name="doInBackground" return="Java.Lang.Object" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="protected">
-            <parameter name="parameters" type="java.lang.Object[]" />
-        </method>
-    </add-node>-->
+    <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='Param']" name="extends">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='Param']" name="extends">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk']" name="managedName">Huawei.UpdateSdk</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.a']" name="managedName">Huawei.UpdateSdk.A.A.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.b.a.a']" name="managedName">Huawei.UpdateSdk.A.A.B.A.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']" name="managedName">Huawei.UpdateSdk.A.A.C</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.a']" name="managedName">Huawei.UpdateSdk.A.A.C.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b']" name="managedName">Huawei.UpdateSdk.A.A.C.B</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b.a']" name="managedName">Huawei.UpdateSdk.A.A.C.B.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.a']" name="managedName">Huawei.UpdateSdk.A.B.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b']" name="managedName">Huawei.UpdateSdk.A.B.B</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b.a']" name="managedName">Huawei.UpdateSdk.A.B.B.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.c']" name="managedName">Huawei.UpdateSdk.A.B.C</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d']" name="managedName">Huawei.UpdateSdk.A.B.D</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d.a']" name="managedName">Huawei.UpdateSdk.A.B.D.A</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.fileprovider']" name="managedName">Huawei.UpdateSdk.FileProvider</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.a']" name="managedName">Huawei.UpdateSdk.Service.A</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']" name="managedName">Huawei.UpdateSdk.Service.AppMgr.Bean</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.b']" name="managedName">Huawei.UpdateSdk.Service.B</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']" name="managedName">Huawei.UpdateSdk.Service.C</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.d.a']" name="managedName">Huawei.UpdateSdk.Service.D.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.e']" name="managedName">Huawei.UpdateSdk.Service.E</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.f']" name="managedName">Huawei.UpdateSdk.Service.F</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']" name="managedName">Huawei.UpdateSdk.Service.OtaUpdate</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.support.pm']" name="managedName">Huawei.UpdateSdk.Support.Pm</attr>
 </metadata>

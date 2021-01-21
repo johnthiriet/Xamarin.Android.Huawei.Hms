@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Push</id>
-    <version>5.0.2.300-rc1</version>
+    <version>5.0.4.302</version>
     <title>Xamarin Huawei Hms Push SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Push SDK.</description>
     <authors>John Thiriet</authors>
@@ -15,7 +15,7 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Push</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="5.0.2.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="5.0.4.301" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
       </group>

@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.UI</id>
-    <version>5.0.0.301-rc1</version>
+    <version>5.1.0.300</version>
     <title>Xamarin Huawei Hms UI SDK</title>
     <description>Xamarin Binding Library - Huawei Hms UI SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -18,6 +18,7 @@
         <dependency id="Xamarin.AndroidX.Annotation" version="1.1.0.6" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
+        <dependency id="Xamarin.Android.Huawei.Hms.Log" version="5.1.0.300" include="contentFiles, build" />
       </group>
     </dependencies>
     <frameworkAssemblies>

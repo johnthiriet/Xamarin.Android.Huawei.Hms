@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Agconnect.Https</id>
-    <version>1.4.0.300-rc1</version>
+    <version>1.4.0.300</version>
     <title>Xamarin Huawei Agconnect Https SDK</title>
     <description>Xamarin Binding Library - Huawei Agconnect Https SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -16,7 +16,7 @@
     <dependencies>
       <group>
         <dependency id="Square.OkHttp3" version="4.3.1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.4.1.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.4.1.300" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
       </group>

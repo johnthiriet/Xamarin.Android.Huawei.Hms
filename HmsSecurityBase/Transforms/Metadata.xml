@@ -7,6 +7,7 @@
     <attr path="/api/package[@name='com.huawei.secure.android.common']" name="managedName">Huawei.Secure.Android.Common</attr>
     <attr path="/api/package[@name='com.huawei.secure.android.common.anonymization']" name="managedName">Huawei.Secure.Android.Common.Anonymization</attr>
     <attr path="/api/package[@name='com.huawei.secure.android.common.base']" name="managedName">Huawei.Secure.Android.Common.Base</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.exception']" name="managedName">Huawei.Secure.Android.Common.Exception</attr>
     <attr path="/api/package[@name='com.huawei.secure.android.common.sign']" name="managedName">Huawei.Secure.Android.Common.Sign</attr>
     <attr path="/api/package[@name='com.huawei.secure.android.common.util']" name="managedName">Huawei.Secure.Android.Common.Util</attr>
     <attr path="/api/package[@name='com.huawei.secure.android.common.webview']" name="managedName">Huawei.Secure.Android.Common.Webview</attr>

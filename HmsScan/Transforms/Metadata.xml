@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
+    <attr path="/api/package[@name='com.huawei.hms.scankit']/class[@name='C']" name="managedName">CObject</attr>
+    
     <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getVin']" name="propertyName"></attr>
     <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getWorldManufacturerID']" name="propertyName"></attr>
     <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getVehicleDescriptorSection']" name="propertyName"></attr>

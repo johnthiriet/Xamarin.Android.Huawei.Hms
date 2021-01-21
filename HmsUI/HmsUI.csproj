@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\ui-5.0.0.301.aar" />
+    <LibraryProjectZip Include="Jars\ui-5.1.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />

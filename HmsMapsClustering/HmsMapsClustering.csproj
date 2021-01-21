@@ -54,7 +54,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\clustering-5.0.2.300.aar" />
+    <LibraryProjectZip Include="Jars\clustering-5.1.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsMaps\HmsMaps.csproj">

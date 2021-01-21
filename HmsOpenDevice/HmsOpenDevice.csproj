@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\opendevice-5.0.2.300.aar" />
+    <LibraryProjectZip Include="Jars\opendevice-5.0.4.301.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsBase\HmsBase.csproj">

@@ -56,9 +56,6 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\stats-5.0.0.301.aar" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">
       <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
       <Name>HmsNetworkGrs</Name>
@@ -67,6 +64,21 @@
       <Project>{532A8F50-9811-43EA-A9D7-8753234946D7}</Project>
       <Name>HmsLog</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HmsSecuritySsl\HmsSecuritySsl.csproj">
+      <Project>{D5847B7E-7D30-4512-8DF3-90EC48F6B38D}</Project>
+      <Name>HmsSecuritySsl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecurityEncrypt\HmsSecurityEncrypt.csproj">
+      <Project>{B2888D15-05FE-42A5-94A7-322D065066D3}</Project>
+      <Name>HmsSecurityEncrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsHaTool\HmsHaTool.csproj">
+      <Project>{4D108EAB-7220-4C9A-A25C-14C4D8940C61}</Project>
+      <Name>HmsHaTool</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\stats-5.1.0.300.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

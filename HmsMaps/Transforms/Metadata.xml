@@ -3,13 +3,13 @@
     <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='getZoom']" name="propertyName"></attr>
     <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='getBearing']" name="propertyName"></attr>-->
     
-    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='bearing']" />
-    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='zoom']" />
-    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='tilt']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='bearing']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='zoom']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaCamera.Builder']/method[@name='tilt']" />
     
-    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaOrientation.Builder']/method[@name='tilt']" />
-    <remove-node  path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaOrientation.Builder']/method[@name='bearing']" />
-    
+    <remove-node path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaOrientation.Builder']/method[@name='tilt']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaOrientation.Builder']/method[@name='bearing']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.maps']/class[@name='MapView.maa']/method[@name='createDelegate' and count(parameter)=1 and parameter[1][@type='com.huawei.hms.feature.dynamic.OnDelegateCreatedListener&lt;com.huawei.hms.maps.MapView.mab&gt;']]" />
     <!-- Prevent invalid property generation since these methods are not properties but builder methods -->
     <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getDuration']" name="propertyName"/>
     <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getInterpolator']" name="propertyName"/>

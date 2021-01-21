@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.HiAnalytics</id>
-    <version>5.0.3.300-rc1</version>
+    <version>5.1.0.301</version>
     <title>Xamarin Huawei HiAnalytics SDK</title>
     <description>Xamarin Binding Library - Huawei HiAnalytics SDK.</description>
     <authors>John Thiriet</authors>
@@ -15,9 +15,12 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, HiAnalytics, Analytics</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Agconnect.Core" version="1.4.0.300-rc1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Agconnect.Credential" version="1.4.0.300-rc1" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="5.0.2.300-rc1" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.HiAnalytics.Core" version="5.1.0.301" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.HiAnalytics.Framework" version="5.1.0.301" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.Credential" version="1.4.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="5.0.4.301" include="contentFiles, build" />
+        <dependency id="XGreenDao.Droid" version="3.3.0" include="contentFiles, build" />
+        <dependency id="XGreenDaoApi.Droid" version="3.3.0" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
       </group>
