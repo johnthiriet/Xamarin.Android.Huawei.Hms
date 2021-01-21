@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.secure.android.common']" name="managedName">Huawei.Secure.Android.Common</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.ssl']" name="managedName">Huawei.Secure.Android.Common.Ssl</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.ssl.hostname']" name="managedName">Huawei.Secure.Android.Common.Ssl.Hostname</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.ssl.util']" name="managedName">Huawei.Secure.Android.Common.Ssl.Util</attr>
+</metadata>

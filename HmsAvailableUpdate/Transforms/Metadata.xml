@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+    <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.update.a')]" />
+    <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.update.b')]" />
+    <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.update.c')]" />
+    
+    <attr path="/api/package[@name='com.huawei.hms.adapter']" name="managedName">Huawei.Hms.Adapter</attr>
+    <attr path="/api/package[@name='com.huawei.hms.adapter.internal']" name="managedName">Huawei.Hms.Adapter.Internal</attr>
+    <attr path="/api/package[@name='com.huawei.hms.adapter.sysobs']" name="managedName">Huawei.Hms.Adapter.Sysobs</attr>
+    <attr path="/api/package[@name='com.huawei.hms.adapter.ui']" name="managedName">Huawei.Hms.Adapter.UI</attr>
+    <attr path="/api/package[@name='com.huawei.hms.base.availableupdate']" name="managedName">Huawei.Hms.Base.AvailableUpdate</attr>
+    <attr path="/api/package[@name='com.huawei.hms.update.kpms']" name="managedName">Huawei.Hms.Base.Update.Kpms</attr>
+    <attr path="/api/package[@name='com.huawei.hms.update.manager']" name="managedName">Huawei.Hms.Base.Update.Manager</attr>
+    <attr path="/api/package[@name='com.huawei.hms.update.provider']" name="managedName">Huawei.Hms.Base.Update.Provider</attr>
+    <attr path="/api/package[@name='com.huawei.hms.update.ui']" name="managedName">Huawei.Hms.Base.Update.UI</attr>
+</metadata>

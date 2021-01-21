@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsHiAnalytics</RootNamespace>
-    <AssemblyName>HmsHiAnalytics</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.HiAnalytics</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.HiAnalytics</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\hianalytics-5.0.0.301.aar" />
+    <LibraryProjectZip Include="Jars\hianalytics-5.1.0.301.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsAgconnectCredential\HmsAgconnectCredential.csproj">
@@ -101,13 +101,24 @@
       <Project>{B53C76CC-ADB5-446A-86DD-986610ABE47E}</Project>
       <Name>HmsOpenDevice</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HmsHiAnalyticsCore\HmsHiAnalyticsCore.csproj">
+      <Project>{514D7F51-84DC-4CBB-BD6D-C4AB591053B7}</Project>
+      <Name>HmsHiAnalyticsCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsHiAnalyticsFramework\HmsHiAnalyticsFramework.csproj">
+      <Project>{48A2EC42-EB23-4A82-8976-560BA99E3145}</Project>
+      <Name>HmsHiAnalyticsFramework</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Square.OkHttp3">
-      <Version>3.11.0</Version>
+      <Version>4.3.1</Version>
     </PackageReference>
-    <PackageReference Include="Square.OkIO">
-      <Version>2.4.1</Version>
+    <PackageReference Include="XGreenDao.Droid">
+      <Version>3.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="XGreenDaoApi.Droid">
+      <Version>3.3.0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

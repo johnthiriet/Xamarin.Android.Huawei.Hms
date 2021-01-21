@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsUpdate</RootNamespace>
-    <AssemblyName>HmsUpdate</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.Update</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.Update</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -58,7 +58,13 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\update-2.0.6.300.aar" />
+    <LibraryProjectZip Include="Jars\update-2.0.7.302.aar" />
+  </ItemGroup>
+  <ItemGroup>
+      <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">
+        <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
+      <Name>HmsNetworkGrs</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

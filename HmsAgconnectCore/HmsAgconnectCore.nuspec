@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Agconnect.Core</id>
-    <version>1.0.0.300</version>
+    <version>1.4.2.300</version>
     <title>Xamarin Huawei Agconnect Core SDK</title>
     <description>Xamarin Binding Library - Huawei Agconnect Core SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -15,7 +15,7 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Agconnect</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.3.3.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.4.1.300" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
       </group>

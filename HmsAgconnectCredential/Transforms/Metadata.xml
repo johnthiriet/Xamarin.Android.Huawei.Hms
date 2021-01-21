@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <attr path="/api/package[@name='com.huawei.a.a.a.a.a']" name="managedName">Huawei.Agconnect.A.A.A.A.A</attr>
-    <attr path="/api/package[@name='com.huawei.a.a.a.b']" name="managedName">Huawei.Agconnect.A.A.A.B</attr>
-    <attr path="/api/package[@name='com.huawei.a.a.a.c']" name="managedName">Huawei.Agconnect.A.A.A.C</attr>
-    <attr path="/api/package[@name='com.huawei.agconnect.common.a']" name="managedName">Huawei.Agconnect.Common.A</attr>
     <attr path="/api/package[@name='com.huawei.agconnect.common.api']" name="managedName">Huawei.Agconnect.Common.Api</attr>
-    <attr path="/api/package[@name='com.huawei.agconnect.common.b']" name="managedName">Huawei.Agconnect.Common.B</attr>
     <attr path="/api/package[@name='com.huawei.agconnect.credential']" name="managedName">Huawei.Agconnect.Credential</attr>
-    <attr path="/api/package[@name='com.huawei.agconnect.credential.a']" name="managedName">Huawei.Agconnect.Credential.A</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.credential.obs']" name="managedName">Huawei.Agconnect.Credential.Obs</attr>
 </metadata>

@@ -1,29 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
+    <remove-node path="/api/package[starts-with(@name, 'com.huawei.updatesdk.a')]" />
+    <remove-node path="/api/package[starts-with(@name, 'com.huawei.updatesdk.b')]" />
     <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='ApkUpgradeInfo']" name="extends">Java.Lang.Object</attr>
-   
-
+    <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='Param']" name="extends">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='Param']" name="extends">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk']" name="managedName">Huawei.UpdateSdk</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.a']" name="managedName">Huawei.UpdateSdk.A.A.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.b.a.a']" name="managedName">Huawei.UpdateSdk.A.A.B.A.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c']" name="managedName">Huawei.UpdateSdk.A.A.C</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.a']" name="managedName">Huawei.UpdateSdk.A.A.C.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b']" name="managedName">Huawei.UpdateSdk.A.A.C.B</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.a.c.b.a']" name="managedName">Huawei.UpdateSdk.A.A.C.B.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.a']" name="managedName">Huawei.UpdateSdk.A.B.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b']" name="managedName">Huawei.UpdateSdk.A.B.B</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.b.a']" name="managedName">Huawei.UpdateSdk.A.B.B.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.c']" name="managedName">Huawei.UpdateSdk.A.B.C</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d']" name="managedName">Huawei.UpdateSdk.A.B.D</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.a.b.d.a']" name="managedName">Huawei.UpdateSdk.A.B.D.A</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.fileprovider']" name="managedName">Huawei.UpdateSdk.FileProvider</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.a']" name="managedName">Huawei.UpdateSdk.Service.A</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']" name="managedName">Huawei.UpdateSdk.Service.AppMgr.Bean</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.b']" name="managedName">Huawei.UpdateSdk.Service.B</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.c']" name="managedName">Huawei.UpdateSdk.Service.C</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.d.a']" name="managedName">Huawei.UpdateSdk.Service.D.A</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.e']" name="managedName">Huawei.UpdateSdk.Service.E</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.f']" name="managedName">Huawei.UpdateSdk.Service.F</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']" name="managedName">Huawei.UpdateSdk.Service.OtaUpdate</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.support.pm']" name="managedName">Huawei.UpdateSdk.Support.Pm</attr>
 </metadata>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    
+    <attr path="/api/package[@name='com.huawei.secure.android.common.util']/class[@name='IOUtil']/method[@name='closeSecure' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">CloseOutputStreamSecure</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.util']/class[@name='IOUtil']/method[@name='closeSecure' and count(parameter)=1 and parameter[1][@type='java.io.InputStream']]" name="managedName">CloseInputStreamSecure</attr>
+    
+    <attr path="/api/package[@name='com.huawei.secure.android.common']" name="managedName">Huawei.Secure.Android.Common</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.anonymization']" name="managedName">Huawei.Secure.Android.Common.Anonymization</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.base']" name="managedName">Huawei.Secure.Android.Common.Base</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.exception']" name="managedName">Huawei.Secure.Android.Common.Exception</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.sign']" name="managedName">Huawei.Secure.Android.Common.Sign</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.util']" name="managedName">Huawei.Secure.Android.Common.Util</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.webview']" name="managedName">Huawei.Secure.Android.Common.Webview</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.xml']" name="managedName">Huawei.Secure.Android.Common.Xml</attr>
+</metadata>

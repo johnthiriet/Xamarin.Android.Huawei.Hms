@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
     <attr path="/api/package[@name='com.huawei.hms.opendevice']/class[@name='OpenDeviceHmsClientBuilder']/method[@name='buildClient']" name="managedReturn">Java.Lang.Object</attr>    
+    <attr path="/api/package[@name='com.huawei.hms.aaid.task']/class[@name='PushClientBuilder']/method[@name='buildClient']" name="managedReturn">Java.Lang.Object</attr>    
     <remove-node path="/api/package[@name='com.huawei.hms.opendevice']/class[@name='OpenDeviceTaskApiCall']"/>
     
     <attr path="/api/package[@name='com.huawei.hms.aaid']" name="managedName">Huawei.Hms.Aaid</attr>
-    <attr path="/api/package[@name='com.huawei.hms.aaid.a']" name="managedName">Huawei.Hms.Aaid.A</attr>
-    <attr path="/api/package[@name='com.huawei.hms.aaid.b']" name="managedName">Huawei.Hms.Aaid.B</attr>
-    <attr path="/api/package[@name='com.huawei.hms.aaid.c']" name="managedName">Huawei.Hms.Aaid.C</attr>
     <attr path="/api/package[@name='com.huawei.hms.aaid.constant']" name="managedName">Huawei.Hms.Aaid.Constant</attr>
+    <attr path="/api/package[@name='com.huawei.hms.aaid.encrypt']" name="managedName">Huawei.Hms.Aaid.Encrypt</attr>
     <attr path="/api/package[@name='com.huawei.hms.aaid.entity']" name="managedName">Huawei.Hms.Aaid.Entity</attr>
     <attr path="/api/package[@name='com.huawei.hms.aaid.init']" name="managedName">Huawei.Hms.Aaid.Init</attr>
+    <attr path="/api/package[@name='com.huawei.hms.aaid.plugin']" name="managedName">Huawei.Hms.Aaid.Plugin</attr>
+    <attr path="/api/package[@name='com.huawei.hms.aaid.task']" name="managedName">Huawei.Hms.Aaid.Task</attr>
+    <attr path="/api/package[@name='com.huawei.hms.aaid.utils']" name="managedName">Huawei.Hms.Aaid.Utils</attr>
     <attr path="/api/package[@name='com.huawei.hms.opendevice']" name="managedName">Huawei.Hms.OpenDevice</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.entity.opendevice']" name="managedName">Huawei.Hms.Support.Api.Entity.OpenDevice</attr>
     <attr path="/api/package[@name='com.huawei.hms.support.api.opendevice']" name="managedName">Huawei.Hms.Support.Api.OpenDevice</attr>

@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Agconnect.DataStore.Annotation</id>
-    <version>1.0.0.300</version>
+    <version>1.4.0.300</version>
     <title>Xamarin Huawei Agconnect DataStore Annotation SDK</title>
     <description>Xamarin Binding Library - Huawei Agconnect DataStore Annotation SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>

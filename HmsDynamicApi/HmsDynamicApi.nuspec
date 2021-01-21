@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.DynamicApi</id>
-    <version>1.0.13.300</version>
+    <version>1.0.15.302</version>
     <title>Xamarin Huawei Hms DynamicApi SDK</title>
     <description>Xamarin Binding Library - Huawei Hms DynamicApi SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>

@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsScan</RootNamespace>
-    <AssemblyName>HmsScan</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.Scan</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.Scan</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -55,7 +55,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\scan-1.2.1.300.aar" />
+    <LibraryProjectZip Include="Jars\scan-1.2.5.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsAgconnectCore\HmsAgconnectCore.csproj">
@@ -73,10 +73,6 @@
     <ProjectReference Include="..\HmsDynamicApi\HmsDynamicApi.csproj">
       <Project>{ECA9552C-302E-47E4-9188-BC8009296CBC}</Project>
       <Name>HmsDynamicApi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HmsNetworkCommon\HmsNetworkCommon.csproj">
-      <Project>{90222D28-36C8-4414-BB6D-2F9BE266DF0B}</Project>
-      <Name>HmsNetworkCommon</Name>
     </ProjectReference>
     <ProjectReference Include="..\HmsMLAgc\HmsMLAgc.csproj">
       <Project>{AB1AE2C5-0125-4360-BE69-0A455E04905E}</Project>

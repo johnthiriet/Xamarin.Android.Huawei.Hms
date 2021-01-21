@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.NetworkFrameworkCompat</id>
+    <version>4.0.20.301</version>
+    <title>Xamarin Huawei Hms NetworkFrameworkCompat SDK</title>
+    <description>Xamarin Binding Library - Huawei Hms NetworkFrameworkCompat SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the Hms NetworkFrameworkCompat SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkCommon" version="4.0.20.301" include="contentFiles, build" />
+      </group>
+      <group targetFramework="MonoAndroid9.0">
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

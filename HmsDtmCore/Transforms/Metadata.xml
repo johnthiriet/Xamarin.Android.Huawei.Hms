@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.android.hms.ppskit']" name="managedName">Huawei.Hms.Feature.PPSKit</attr>
+    <attr path="/api/package[@name='com.huawei.hms.dtm.core']" name="managedName">Huawei.Hms.Dtm.Core</attr>
+    <attr path="/api/package[@name='com.huawei.hms.dtm.core.debug']" name="managedName">Huawei.Hms.Dtm.Core.Debug</attr>
+    <attr path="/api/package[@name='com.huawei.hms.dtm.core.report']" name="managedName">Huawei.Hms.Dtm.Core.Report</attr>
+    <attr path="/api/package[@name='com.huawei.hms.dtm.core.safe']" name="managedName">Huawei.Hms.Dtm.Core.Safe</attr>
+    <attr path="/api/package[@name='com.huawei.hms.dtm.core.util']" name="managedName">Huawei.Hms.Dtm.Core.Util</attr>
+</metadata>

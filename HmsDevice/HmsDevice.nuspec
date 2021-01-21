@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.Device</id>
+    <version>5.1.0.300</version>
+    <title>Xamarin Huawei Hms Device SDK</title>
+    <description>Xamarin Binding Library - Huawei Hms Device SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the Hms Device SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Android.Huawei.Hms.Log" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.Core" version="1.4.2.300" include="contentFiles, build" />
+      </group>
+      <group targetFramework="MonoAndroid9.0">
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

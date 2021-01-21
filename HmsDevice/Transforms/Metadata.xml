@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.utils']/class[@name='IOUtils']/method[@name='closeQuietly' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">CloseQuietlyOutputStream</attr>
+    <attr path="/api/package[@name='com.huawei.hms.utils']/class[@name='IOUtils']/method[@name='closeQuietly' and count(parameter)=1 and parameter[1][@type='java.io.InputStream']]" name="managedName">CloseQuietlyInputStream</attr>
+    
+    <attr path="/api/package[@name='com.huawei.hms.android']" name="managedName">Huawei.Hms.Android</attr>
+    <attr path="/api/package[@name='com.huawei.hms.base.device']" name="managedName">Huawei.Hms.Base.Device</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common']" name="managedName">Huawei.Hms.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common.internal']" name="managedName">Huawei.Hms.Common.Internal</attr>
+    <attr path="/api/package[@name='com.huawei.hms.common.util']" name="managedName">Huawei.Hms.Common.Util</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.gentyref']" name="managedName">Huawei.Hms.Support.Gentyref</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.log.common']" name="managedName">Huawei.Hms.Support.Log.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.utils']" name="managedName">Huawei.Hms.Utils</attr>
+    <attr path="/api/package[@name='com.huawei.hms.utils.a']" name="managedName">Huawei.Hms.Utils.A</attr>
+</metadata>

@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsMLAgc</RootNamespace>
-    <AssemblyName>HmsMLAgc</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.ML.Agc</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.ML.Agc</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -55,12 +55,16 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\ml-computer-agc-inner-2.0.1.300.aar" />
+    <LibraryProjectZip Include="Jars\ml-computer-agc-inner-2.0.3.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsAgconnectCore\HmsAgconnectCore.csproj">
       <Project>{53BC97F6-0DA1-4F22-B2E0-94F1A2805E31}</Project>
       <Name>HmsAgconnectCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsMLCommonUtils\HmsMLCommonUtils.csproj">
+      <Project>{7A0AAF60-6812-45B7-927D-395B52E558BF}</Project>
+      <Name>HmsMLCommonUtils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

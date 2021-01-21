@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.base.log']" name="managedName">Huawei.Hms.Base.Log</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.log']" name="managedName">Huawei.Hms.Support.Log</attr>
+</metadata>

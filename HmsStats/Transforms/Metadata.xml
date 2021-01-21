@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <remove-node path="/api/package[starts-with(@name, 'com.huawei.hianalytics.ab')]" />
+    <attr path="/api/package[@name='com.huawei.hms.stats']" name="managedName">Huawei.Hms.Stats</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.hianalytics']" name="managedName">Huawei.Hms.Support.HiAnalytics</attr>
+    <attr path="/api/package[@name='com.huawei.hms.utils']" name="managedName">Huawei.Hms.Utils</attr>
+</metadata>

@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <attr path="/api/package[@name='com.huawei.agconnect.https.adapter']/class[@name='JsonResponseAdapter']/method[@name='adapter' and count(parameter)=1 and parameter[1][@type='okhttp3.ResponseBody']]/parameter[1]" name="type">Java.Lang.Object</attr>
-    <attr path="/api/package[@name='com.huawei.agconnect.https.adapter']/class[@name='StringRequestAdapter']/method[@name='adapter' and count(parameter)=1 and parameter[1][@type='HttpsRequest']]" name="managedReturn">Java.Lang.Object</attr>
-    <attr path="/api/package[@name='com.huawei.agconnect.https.adapter']/class[@name='JsonRequestAdapter']/method[@name='adapter' and count(parameter)=1 and parameter[1][@type='Request']]" name="managedReturn">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.agconnect.https']" name="managedName">Huawei.Agconnect.Https</attr>
     <attr path="/api/package[@name='com.huawei.agconnect.https.adapter']" name="managedName">Huawei.Agconnect.Https.Adapter</attr>
     <attr path="/api/package[@name='com.huawei.agconnect.https.annotation']" name="managedName">Huawei.Agconnect.Https.Annotation</attr>

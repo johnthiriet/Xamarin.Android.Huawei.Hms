@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.framework.common']" name="managedName">Huawei.Hms.Framework.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.frameworkcompat']" name="managedName">Huawei.Hms.Framework.Network.FrameworkCompat</attr>
+</metadata>

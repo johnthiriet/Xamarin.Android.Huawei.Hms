@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.dtm']" name="managedName">Huawei.Hms.Dtm</attr>
+    <attr path="/api/package[@name='com.huawei.hms.dtm.provider.api']" name="managedName">Huawei.Hms.Dtm.Provider.Api</attr>
+</metadata>

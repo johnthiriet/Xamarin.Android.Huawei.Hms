@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.core.crypto']" name="managedName">Huawei.Hms.Analytics.Core.Crypto</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.core.log']" name="managedName">Huawei.Hms.Analytics.Core.Log</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.core.storage']" name="managedName">Huawei.Hms.Analytics.Core.Storage</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.core.transport']" name="managedName">Huawei.Hms.Analytics.Core.Transport</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.core.transport.a']" name="managedName">Huawei.Hms.Analytics.Core.Transport.A</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.core.transport.net']" name="managedName">Huawei.Hms.Analytics.Core.Transport.Net</attr>
+</metadata>

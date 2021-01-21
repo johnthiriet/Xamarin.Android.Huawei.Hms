@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.activity']" name="managedName">Huawei.Hms.Activity</attr>
+    <attr path="/api/package[@name='com.huawei.hms.base.ui']" name="managedName">Huawei.Hms.Base.UI</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.common']" name="managedName">Huawei.Hms.Support.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.ui']" name="managedName">Huawei.Hms.UI</attr>
+    <attr path="/api/package[@name='com.huawei.hms.utils']" name="managedName">Huawei.Hms.Utils</attr>
+</metadata>

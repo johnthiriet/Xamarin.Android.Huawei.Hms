@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsOpenDevice</RootNamespace>
-    <AssemblyName>HmsOpenDevice</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.OpenDevice</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.OpenDevice</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -58,16 +58,68 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\opendevice-4.0.1.301.aar" />
+    <LibraryProjectZip Include="Jars\opendevice-5.0.4.301.aar" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HmsBase\HmsBase.csproj">
+      <Project>{9DBE3287-AE3C-4B76-B5B4-95D07DFDE355}</Project>
+      <Name>HmsBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecuritySsl\HmsSecuritySsl.csproj">
+      <Project>{D5847B7E-7D30-4512-8DF3-90EC48F6B38D}</Project>
+      <Name>HmsSecuritySsl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecurityEncrypt\HmsSecurityEncrypt.csproj">
+      <Project>{B2888D15-05FE-42A5-94A7-322D065066D3}</Project>
+      <Name>HmsSecurityEncrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecurityBase\HmsSecurityBase.csproj">
+      <Project>{ACB24920-348B-4CDA-AA61-3824427CC594}</Project>
+      <Name>HmsSecurityBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsAgconnectCore\HmsAgconnectCore.csproj">
+      <Project>{53BC97F6-0DA1-4F22-B2E0-94F1A2805E31}</Project>
+      <Name>HmsAgconnectCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsDevice\HmsDevice.csproj">
+      <Project>{1F6C37CA-6D89-4F3B-8683-CE7ADD7E2677}</Project>
+      <Name>HmsDevice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsLog\HmsLog.csproj">
+      <Project>{532A8F50-9811-43EA-A9D7-8753234946D7}</Project>
+      <Name>HmsLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsStats\HmsStats.csproj">
+      <Project>{83F9E854-C6AF-4F54-8590-201146088638}</Project>
+      <Name>HmsStats</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HmsTasks\HmsTasks.csproj">
       <Project>{29D87097-7813-4EF0-8B7F-1B153E41A774}</Project>
       <Name>HmsTasks</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HmsBase\HmsBase.csproj">
-      <Project>{9DBE3287-AE3C-4B76-B5B4-95D07DFDE355}</Project>
-      <Name>HmsBase</Name>
+    <ProjectReference Include="..\HmsUI\HmsUI.csproj">
+      <Project>{8706E40D-8436-4725-8C49-BE9C907B6CCA}</Project>
+      <Name>HmsUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsUpdate\HmsUpdate.csproj">
+      <Project>{54CDB1BA-F1B2-4190-83D3-21D70485D0E1}</Project>
+      <Name>HmsUpdate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">
+      <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
+      <Name>HmsNetworkGrs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsNetworkCommon\HmsNetworkCommon.csproj">
+      <Project>{90222D28-36C8-4414-BB6D-2F9BE266DF0B}</Project>
+      <Name>HmsNetworkCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsDynamicApi\HmsDynamicApi.csproj">
+      <Project>{ECA9552C-302E-47E4-9188-BC8009296CBC}</Project>
+      <Name>HmsDynamicApi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsAvailableUpdate\HmsAvailableUpdate.csproj">
+      <Project>{1F6D4AE0-FEB5-4DBE-A874-E8EF04BCCC74}</Project>
+      <Name>HmsAvailableUpdate</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

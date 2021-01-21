@@ -10,8 +10,8 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HmsDynamicApi</RootNamespace>
-    <AssemblyName>HmsDynamicApi</AssemblyName>
+    <RootNamespace>Xamarin.Android.Huawei.Hms.DynamicApi</RootNamespace>
+    <AssemblyName>Xamarin.Android.Huawei.Hms.DynamicApi</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
@@ -51,7 +51,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\dynamic-api-1.0.13.300.aar" />
+    <LibraryProjectZip Include="Jars\dynamic-api-1.0.15.302.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.encrypt']" name="managedName">Huawei.Secure.Android.Common.Encrypt</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.encrypt.aes']" name="managedName">Huawei.Secure.Android.Common.Encrypt.Aes</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.encrypt.hash']" name="managedName">Huawei.Secure.Android.Common.Encrypt.Hash</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.encrypt.keystore.aes']" name="managedName">Huawei.Secure.Android.Common.Encrypt.Keystore.Aes</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.encrypt.keystore.rsa']" name="managedName">Huawei.Secure.Android.Common.Encrypt.Keystore.Rsa</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.encrypt.rsa']" name="managedName">Huawei.Secure.Android.Common.Encrypt.Rsa</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.encrypt.utils']" name="managedName">Huawei.Secure.Android.Common.Encrypt.Utils</attr>
+</metadata>

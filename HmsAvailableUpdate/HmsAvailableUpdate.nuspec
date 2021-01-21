@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.AvailableUpdate</id>
+    <version>5.1.0.300</version>
+    <title>Xamarin Huawei Hms AvailableUpdate SDK</title>
+    <description>Xamarin Binding Library - Huawei Hms AvailableUpdate SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the Hms AvailableUpdate SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Android.Huawei.Hms.UI" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Stats" version="5.1.0.300" include="contentFiles, build" />      
+        <dependency id="Xamarin.Android.Huawei.Hms.Device" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Log" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Update" version="2.0.7.302" include="contentFiles, build" />
+      </group>
+      <group targetFramework="MonoAndroid9.0">
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
