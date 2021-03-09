@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth']" name="managedName">Huawei.Agconnect.Auth</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal']" name="managedName">Huawei.Agconnect.Auth.Internal</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal.a']" name="managedName">Huawei.Agconnect.Auth.Internal.A</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal.b']" name="managedName">Huawei.Agconnect.Auth.Internal.B</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal.b.a']" name="managedName">Huawei.Agconnect.Auth.Internal.B.A</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal.b.b']" name="managedName">Huawei.Agconnect.Auth.Internal.B.B</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal.b.c']" name="managedName">Huawei.Agconnect.Auth.Internal.B.C</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal.c']" name="managedName">Huawei.Agconnect.Auth.Internal.C</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal.d']" name="managedName">Huawei.Agconnect.Auth.Internal.D</attr>
+    <attr path="/api/package[@name='com.huawei.agconnect.auth.internal.user']" name="managedName">Huawei.Agconnect.Auth.Internal.User</attr>
+</metadata>

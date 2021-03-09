@@ -77,6 +77,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsHiAnalyticsCore", "HmsHi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsHiAnalyticsFramework", "HmsHiAnalyticsFramework\HmsHiAnalyticsFramework.csproj", "{48A2EC42-EB23-4A82-8976-560BA99E3145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsIap", "HmsIap\HmsIap.csproj", "{9C521386-233E-4CE8-B135-9D68ED2CBDEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HmsAgconnectAuth", "HmsAgconnectAuth\HmsAgconnectAuth.csproj", "{D6744B6F-B17A-49D9-9221-53C31B6C6A91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +235,14 @@ Global
 		{48A2EC42-EB23-4A82-8976-560BA99E3145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48A2EC42-EB23-4A82-8976-560BA99E3145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48A2EC42-EB23-4A82-8976-560BA99E3145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C521386-233E-4CE8-B135-9D68ED2CBDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C521386-233E-4CE8-B135-9D68ED2CBDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C521386-233E-4CE8-B135-9D68ED2CBDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C521386-233E-4CE8-B135-9D68ED2CBDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6744B6F-B17A-49D9-9221-53C31B6C6A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6744B6F-B17A-49D9-9221-53C31B6C6A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6744B6F-B17A-49D9-9221-53C31B6C6A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6744B6F-B17A-49D9-9221-53C31B6C6A91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
