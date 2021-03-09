@@ -56,7 +56,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\datastore-core-1.4.0.300.aar" />
+    <LibraryProjectZip Include="Jars\datastore-core-1.5.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsDataStoreAnnotation\HmsDataStoreAnnotation.csproj">

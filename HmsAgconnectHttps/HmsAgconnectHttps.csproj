@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\agconnect-https-1.4.0.300.aar" />
+    <LibraryProjectZip Include="Jars\agconnect-https-1.5.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsTasks\HmsTasks.csproj">

@@ -15,7 +15,7 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Scan</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Agconnect.Core" version="1.4.2.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.Core" version="1.5.0.300" include="contentFiles, build" />
         <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="4.0.20.301" include="contentFiles, build" />
         <dependency id="Xamarin.Android.Huawei.Hms.ML.Base" version="2.0.3.300" include="contentFiles, build" />
         <dependency id="Xamarin.Android.Huawei.Hms.ML.Camera" version="2.0.3.300" include="contentFiles, build" />

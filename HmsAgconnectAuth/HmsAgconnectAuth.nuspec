@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Agconnect.Auth</id>
-    <version>1.4.2.300</version>
+    <version>1.5.0.300</version>
     <title>Xamarin Huawei Agconnect Auth SDK</title>
     <description>Xamarin Binding Library - Huawei Agconnect Auth SDK.</description>
     <authors>John Thiriet</authors>
@@ -15,10 +15,10 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Agconnect</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Agconnect.Https" version="1.4.0.300" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Agconnect.Credentials" version="1.4.0.300" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Agconnect.DataStore.Annotation" version="1.4.0.300" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Agconnect.DataStore.Core" version="1.4.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.Https" version="1.5.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.Credential" version="1.5.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.DataStore.Annotation" version="1.5.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.DataStore.Core" version="1.5.0.300" include="contentFiles, build" />
         <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.4.1.300" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">

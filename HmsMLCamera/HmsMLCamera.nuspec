@@ -15,7 +15,7 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Scan, ML</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Agconnect.Core" version="1.4.2.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Agconnect.Core" version="1.5.0.300" include="contentFiles, build" />
         <dependency id="Xamarin.Android.Huawei.Hms.ML.Ha" version="2.0.3.300" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid9.0">
