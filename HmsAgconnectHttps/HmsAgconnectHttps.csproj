@@ -14,7 +14,7 @@
     <AssemblyName>Xamarin.Android.Huawei.Agconnect.Https</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\agconnect-https-1.4.0.300.aar" />
+    <LibraryProjectZip Include="Jars\agconnect-https-1.5.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsTasks\HmsTasks.csproj">
@@ -68,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Square.OkHttp3">
-      <Version>4.3.1</Version>
+      <Version>4.9.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

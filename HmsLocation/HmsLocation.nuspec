@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Location</id>
-    <version>5.1.0.300</version>
+    <version>5.1.0.303</version>
     <title>Xamarin Huawei Hms Location SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Location SDK.</description>
     <authors>John Thiriet</authors>
@@ -15,13 +15,13 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Location</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="5.1.0.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="5.1.0.304" include="contentFiles, build" />
       </group>
-      <group targetFramework="MonoAndroid9.0">
+      <group targetFramework="MonoAndroid10.0">
       </group>
     </dependencies>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid10.0" />
     </frameworkAssemblies>
   </metadata>
 </package>

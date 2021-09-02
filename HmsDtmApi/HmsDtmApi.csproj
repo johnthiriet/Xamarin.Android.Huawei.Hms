@@ -14,7 +14,7 @@
     <AssemblyName>HmsDtmApi</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -75,9 +75,13 @@
       <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
       <Name>HmsNetworkGrs</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HmsAdsIdentifier\HmsAdsIdentifier.csproj">
+      <Project>{746E451C-7171-4C58-94ED-6BB486DF15B5}</Project>
+      <Name>HmsAdsIdentifier</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\dtm-api-5.1.0.300.aar" />
+    <LibraryProjectZip Include="Jars\dtm-api-5.3.0.300.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,9 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.huawei.appgallery.serviceverifykit']" name="managedName">Huawei.AppGallery.ServiceVerifyKit</attr>
+    <attr path="/api/package[@name='com.huawei.appgallery.serviceverifykit.a']" name="managedName">Huawei.AppGallery.ServiceVerifyKit.A</attr>
+    <attr path="/api/package[@name='com.huawei.appgallery.serviceverifykit.api']" name="managedName">Huawei.AppGallery.ServiceVerifyKit.Api</attr>
+    <attr path="/api/package[@name='com.huawei.appgallery.serviceverifykit.b']" name="managedName">Huawei.AppGallery.ServiceVerifyKit.B</attr>
+    <attr path="/api/package[@name='com.huawei.appgallery.serviceverifykit.c']" name="managedName">Huawei.AppGallery.ServiceVerifyKit.C</attr>
+    <attr path="/api/package[@name='com.huawei.appgallery.serviceverifykit.d']" name="managedName">Huawei.AppGallery.ServiceVerifyKit.D</attr>
+    <attr path="/api/package[@name='com.huawei.appgallery.serviceverifykit.d.d']" name="managedName">Huawei.AppGallery.ServiceVerifyKit.D.D</attr>
+</metadata>

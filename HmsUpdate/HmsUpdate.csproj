@@ -14,7 +14,7 @@
     <AssemblyName>Xamarin.Android.Huawei.Hms.Update</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -58,13 +58,20 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\update-2.0.7.302.aar" />
+    <LibraryProjectZip Include="Jars\update-3.0.2.300.aar" />
   </ItemGroup>
   <ItemGroup>
       <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">
         <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
       <Name>HmsNetworkGrs</Name>
     </ProjectReference>
+      <ProjectReference Include="..\HmsSecuritySsl\HmsSecuritySsl.csproj">
+        <Name>HmsSecuritySsl</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\HmsComponentVerifySdk\HmsComponentVerifySdk.csproj">
+        <Project>{BBE67A37-5E46-45EA-BB03-F79E0497F1CE}</Project>
+        <Name>HmsComponentVerifySdk</Name>
+      </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
