@@ -14,7 +14,7 @@
     <AssemblyName>HmsNetworkFrameworkCompat</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -55,7 +55,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\network-framework-compat-4.0.20.301.aar" />
+    <LibraryProjectZip Include="Jars\network-framework-compat-5.0.3.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsNetworkCommon\HmsNetworkCommon.csproj">

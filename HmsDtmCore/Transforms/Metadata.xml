@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
+    <remove-node path="/api/package[@name='com.huawei.hms.dtm.core']/class[@name='A']/method[@name='a' and count(parameter)=1 and parameter[1][@type='com.huawei.hms.dtm.core.B']]" />
     <attr path="/api/package[@name='com.huawei.android.hms.ppskit']" name="managedName">Huawei.Hms.Feature.PPSKit</attr>
     <attr path="/api/package[@name='com.huawei.hms.dtm.core']" name="managedName">Huawei.Hms.Dtm.Core</attr>
     <attr path="/api/package[@name='com.huawei.hms.dtm.core.debug']" name="managedName">Huawei.Hms.Dtm.Core.Debug</attr>

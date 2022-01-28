@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
     <attr path="/api/package[@name='com.huawei.hms.scankit']/class[@name='C']" name="managedName">CObject</attr>
+
+    <attr path="/api/package[@name='com.huawei.hms.scankit']/class[@name='E']" name="managedName">EObject</attr>
+
+    <attr path="/api/package[@name='com.huawei.hms.scankit.p']/class[@name='D']" name="managedName">DObject</attr>
+
+    <attr path="/api/package[@name='com.huawei.hms.scankit.p']/class[@name='B']" name="managedName">BObject</attr>
+
+    <attr path="/api/package[@name='com.huawei.hms.scankit.p']/class[@name='C']" name="managedName">CObject</attr>
+
+    <attr path="/api/package[@name='com.huawei.hms.scankit.p']/class[@name='E']" name="managedName">EObject</attr>
+
+    <remove-node path="/api/package[@name='com.huawei.hms.scankit.p']/class[@name='Ha']" />
     
     <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getVin']" name="propertyName"></attr>
     <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.VehicleInfo']/method[@name='getWorldManufacturerID']" name="propertyName"></attr>
@@ -97,11 +109,16 @@
     
     
     <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.TelPhoneNumber']/field[@name='telPhoneNumber']" name="managedName">PhoneNumber</attr>
+
+
+
     <attr path="/api/package[@name='com.huawei.hms.feature']" name="managedName">Huawei.Hms.Feature</attr>
     <attr path="/api/package[@name='com.huawei.hms.hmsscankit']" name="managedName">Huawei.Hms.HmsScanKit</attr>
     <attr path="/api/package[@name='com.huawei.hms.hmsscankit.api']" name="managedName">Huawei.Hms.HmsScanKit.Api</attr>
     <attr path="/api/package[@name='com.huawei.hms.ml.scan']" name="managedName">Huawei.Hms.Ml.Scan</attr>
     <attr path="/api/package[@name='com.huawei.hms.scankit']" name="managedName">Huawei.Hms.ScanKit</attr>
+    <attr path="/api/package[@name='com.huawei.hms.scankit.aiscan.common']" name="managedName">Huawei.Hms.ScanKit.AiScan.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.scankit.drawable']" name="managedName">Huawei.Hms.ScanKit.Drawable</attr>
     <attr path="/api/package[@name='com.huawei.hms.scankit.p']" name="managedName">Huawei.Hms.ScanKit.P</attr>
     <attr path="/api/package[@name='com.huawei.hms.scankit.util']" name="managedName">Huawei.Hms.ScanKit.Util</attr>
 </metadata>

@@ -2,8 +2,8 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Log</id>
-    <version>5.1.0.300</version>
-    <title>Xamarin Huawei HiAnalytics SDK</title>
+    <version>5.3.0.304</version>
+    <title>Xamarin Huawei Hms Log SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Log SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
     <owners>John Thiriet</owners>
@@ -16,11 +16,11 @@
     <dependencies>
       <group>
       </group>
-      <group targetFramework="MonoAndroid9.0">
+      <group targetFramework="MonoAndroid10.0">
       </group>
     </dependencies>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid10.0" />
     </frameworkAssemblies>
   </metadata>
 </package>

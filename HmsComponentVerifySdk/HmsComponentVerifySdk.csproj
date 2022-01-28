@@ -5,16 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A9E926EB-1FC4-4674-AF55-27EACA37DD3B}</ProjectGuid>
+    <ProjectGuid>{BBE67A37-5E46-45EA-BB03-F79E0497F1CE}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xamarin.Android.Huawei.Hms.ML.Ha</RootNamespace>
-    <AssemblyName>Xamarin.Android.Huawei.Hms.ML.Ha</AssemblyName>
+    <RootNamespace>HmsComponentVerifySdk</RootNamespace>
+    <AssemblyName>HmsComponentVerifySdk</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -40,7 +40,6 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,18 +49,12 @@
     <None Include="Additions\AboutAdditions.txt" />
   </ItemGroup>
   <ItemGroup>
+    <LibraryProjectZip Include="Jars\componentverifysdk-11.2.1.300.aar" />
+  </ItemGroup>
+  <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <LibraryProjectZip Include="Jars\ml-computer-ha-inner-2.0.3.300.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">
-      <Project>{C738E126-5C33-4DBC-A7CE-A320B32A5993}</Project>
-      <Name>HmsNetworkGrs</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

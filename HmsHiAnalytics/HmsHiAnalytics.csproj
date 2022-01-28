@@ -14,7 +14,7 @@
     <AssemblyName>Xamarin.Android.Huawei.Hms.HiAnalytics</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\hianalytics-5.1.0.301.aar" />
+    <LibraryProjectZip Include="Jars\hianalytics-5.3.1.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsAgconnectCredential\HmsAgconnectCredential.csproj">
@@ -112,7 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Square.OkHttp3">
-      <Version>4.3.1</Version>
+      <Version>4.9.1</Version>
     </PackageReference>
     <PackageReference Include="XGreenDao.Droid">
       <Version>3.3.0</Version>

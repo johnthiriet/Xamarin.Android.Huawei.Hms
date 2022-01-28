@@ -1,0 +1,4 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.ads.identifier']" name="managedName">Huawei.Hms.Ads.Identifier</attr>
+    <attr path="/api/package[@name='com.huawei.hms.ads.identifier.aidl']" name="managedName">Huawei.Hms.Ads.Identifier.Aidl</attr>
+</metadata>

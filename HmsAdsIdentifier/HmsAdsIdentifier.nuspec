@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.AdsIdentifier</id>
+    <version>3.4.37.300</version>
+    <title>Xamarin Huawei Hms Ads Identifier SDK</title>
+    <description>Xamarin Binding Library - Huawei Hms Ads Identifier SDK.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the Hms Ads Identifier SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid10.0">
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid10.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

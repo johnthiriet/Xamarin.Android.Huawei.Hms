@@ -17,11 +17,11 @@
       <group>
         <dependency id="Xamarin.Android.Huawei.Hmf.Tasks" version="1.4.1.300" include="contentFiles, build" />
       </group>
-      <group targetFramework="MonoAndroid9.0">
+      <group targetFramework="MonoAndroid10.0">
       </group>
     </dependencies>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid10.0" />
     </frameworkAssemblies>
   </metadata>
 </package>
