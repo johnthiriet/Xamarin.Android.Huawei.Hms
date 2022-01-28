@@ -128,11 +128,11 @@ var artifacts = new [] {
         ProjectName = "HmsNetworkCommon"
     },
     new Artifact {
-        NativeVersion = "5.0.3.300",
+        NativeVersion = "5.0.3.301",
         NugetSuffix = "",
         AarName = "network-grs",
         ProjectName = "HmsNetworkGrs"
-    },
+    }
     new Artifact {
         NativeVersion = "5.0.3.300",
         NugetSuffix = "",
@@ -347,7 +347,12 @@ class Artifact {
 
     public string NugetSuffix { get; set; }
 
-    public string NativeVersion { get; set; }
+    private string _nativeVersion = null;
+    public string NativeVersion
+    {
+        get { return _nativeVersion; }
+        set { _nativeVersion = value; }
+    }
 
     public string AssemblyInfoPath
     {
