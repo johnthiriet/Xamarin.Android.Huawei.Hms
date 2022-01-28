@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.NetworkGrs</id>
-    <version>4.0.20.301</version>
+    <version>5.0.3.301</version>
     <title>Xamarin Huawei Hms NetworkGrs SDK</title>
     <description>Xamarin Binding Library - Huawei Hms NetworkGrs SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -15,9 +15,9 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.NetworkCommon" version="4.0.20.301" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.NetworkFrameworkCompat" version="4.0.20.301" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.302" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkCommon" version="5.0.3.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkFrameworkCompat" version="5.0.3.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.306" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid10.0">
       </group>

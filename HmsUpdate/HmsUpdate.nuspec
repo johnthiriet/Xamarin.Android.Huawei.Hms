@@ -15,7 +15,7 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
       <group targetFramework="MonoAndroid10.0">
-        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="5.0.3.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="5.0.3.301" include="contentFiles, build" />
         <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.306" include="contentFiles, build" />
         <dependency id="Xamarin.Android.Huawei.Hms.Component.Verify.Sdk" version="11.2.1.300" include="contentFiles, build" />
       </group>
