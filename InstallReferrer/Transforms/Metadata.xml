@@ -1,0 +1,7 @@
+﻿<metadata>
+    <remove-node path="/api/package[@name='a.a']/interface[@name='a']" />
+    <attr path="/api/package[@name='com.google.android.a']" name="managedName">Google.Android.A</attr>
+    <attr path="/api/package[@name='com.google.android.finsky.externalreferrer']" name="managedName">Google.Android.Finsky.ExternalReferrer</attr>
+    <attr path="/api/package[@name='com.android.installreferrer.commons']" name="managedName">Android.InstallReferrer.Commons</attr>
+    <attr path="/api/package[@name='com.android.installreferrer.api']" name="managedName">Android.InstallReferrer.Api</attr>
+</metadata>

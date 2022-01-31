@@ -1,0 +1,6 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.safetydetect']" name="managedName">Huawei.Hms.Support.Api.SafetyDetect</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.safetydetect.default']" name="managedName">Huawei.Hms.Support.Api.SafetyDetect.Default</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.safetydetect']" name="managedName">Huawei.Hms.Support.Api.Entity.SafetyDetect</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.safetydetect.base']" name="managedName">Huawei.Hms.Support.Api.Entity.SafetyDetect.Base</attr>
+</metadata>

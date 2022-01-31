@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='android.app.servertransaction']" name="managedName">Huawei.Android.App.ServerTransaction</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common']" name="managedName">Huawei.Secure.Android.Common</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.activity']" name="managedName">Huawei.Secure.Android.Common.Activity</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.activity.protect']" name="managedName">Huawei.Secure.Android.Common.Activity.Protect</attr>
+    <attr path="/api/package[@name='com.huawei.secure.android.common.intent']" name="managedName">Huawei.Secure.Android.Common.Intent</attr>
+</metadata>

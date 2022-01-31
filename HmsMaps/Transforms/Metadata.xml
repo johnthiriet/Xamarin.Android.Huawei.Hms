@@ -10,6 +10,10 @@
     <remove-node path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaOrientation.Builder']/method[@name='tilt']" />
     <remove-node path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='StreetViewPanoramaOrientation.Builder']/method[@name='bearing']" />
     <remove-node path="/api/package[@name='com.huawei.hms.maps']/class[@name='MapView.maa']/method[@name='createDelegate' and count(parameter)=1 and parameter[1][@type='com.huawei.hms.feature.dynamic.OnDelegateCreatedListener&lt;com.huawei.hms.maps.MapView.mab&gt;']]" />
+    <remove-node path="/api/package[@name='com.huawei.hms.maps']/class[@name='MapView']/field[@name='a']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.maps']/class[@name='MapView.maa']/method[@name='a' and count(parameter)=1 and parameter[1][@type='com.huawei.hms.maps.internal.mad']]" />
+    <remove-node path="/api/package[@name='com.huawei.hms.maps']/class[@name='maa']/method[@name='a' and count(parameter)=1 and parameter[1][@type='com.huawei.hms.maps.internal.mad']]" />
+
     <!-- Prevent invalid property generation since these methods are not properties but builder methods -->
     <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getDuration']" name="propertyName"/>
     <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']/class[@name='Animation']/method[@name='getInterpolator']" name="propertyName"/>
@@ -39,11 +43,11 @@
     <attr path="/api/package[@name='com.huawei.hms.maps.model']/class[@name='MarkerOptions']/method[@name='zIndex']" name="managedName">SetZIndex</attr>
     
     <attr path="/api/package[@name='com.huawei.hms.maps']" name="managedName">Huawei.Hms.Maps</attr>
-    <attr path="/api/package[@name='com.huawei.hms.maps.api']" name="managedName">Huawei.Hms.Maps.Api</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.internal']" name="managedName">Huawei.Hms.Maps.Internal</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.common']" name="managedName">Huawei.Hms.Maps.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.maps.common.util']" name="managedName">Huawei.Hms.Maps.Common.Util</attr>
     <attr path="/api/package[@name='com.huawei.hms.maps.model']" name="managedName">Huawei.Hms.Maps.Model</attr>
     <attr path="/api/package[@name='com.huawei.hms.maps.model.animation']" name="managedName">Huawei.Hms.Maps.Model.Animation</attr>
-    <attr path="/api/package[@name='com.huawei.hms.maps.common.util']" name="managedName">Huawei.Hms.Maps.Common.Util</attr>
-    <attr path="/api/package[@name='com.huawei.hms.maps.internal']" name="managedName">Huawei.Hms.Maps.Internal</attr>
     
     <remove-node path="/api/package[@name='']/*" />
 </metadata>

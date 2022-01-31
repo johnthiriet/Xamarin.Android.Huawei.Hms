@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Update</id>
-    <version>3.0.2.300</version>
+    <version>4.0.1.300</version>
     <title>Xamarin Huawei Hms Update SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Update SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -15,9 +15,9 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
       <group targetFramework="MonoAndroid10.0">
-        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="5.0.3.301" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.306" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Component.Verify.Sdk" version="11.2.1.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="5.0.8.301" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.309" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Component.Verify.Sdk" version="11.4.1.301" include="contentFiles, build" />
       </group>
     </dependencies>
     <frameworkAssemblies>

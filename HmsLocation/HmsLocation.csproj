@@ -28,7 +28,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <NoWarn>CS0109;CS0114</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>portable</DebugType>
@@ -37,7 +36,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <NoWarn>CS0109;CS0114</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -86,29 +84,44 @@
       <Project>{90222D28-36C8-4414-BB6D-2F9BE266DF0B}</Project>
       <Name>HmsNetworkCommon</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HmsAgconnectCore\HmsAgconnectCore.csproj">
-      <Project>{53BC97F6-0DA1-4F22-B2E0-94F1A2805E31}</Project>
-      <Name>HmsAgconnectCore</Name>
-    </ProjectReference>
     <ProjectReference Include="..\HmsUpdate\HmsUpdate.csproj">
       <Project>{54CDB1BA-F1B2-4190-83D3-21D70485D0E1}</Project>
       <Name>HmsUpdate</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HmsDevice\HmsDevice.csproj">
-      <Project>{1F6C37CA-6D89-4F3B-8683-CE7ADD7E2677}</Project>
-      <Name>HmsDevice</Name>
     </ProjectReference>
     <ProjectReference Include="..\HmsTasks\HmsTasks.csproj">
       <Project>{29D87097-7813-4EF0-8B7F-1B153E41A774}</Project>
       <Name>HmsTasks</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HmsDynamicApi\HmsDynamicApi.csproj">
-      <Project>{ECA9552C-302E-47E4-9188-BC8009296CBC}</Project>
-      <Name>HmsDynamicApi</Name>
+    <ProjectReference Include="..\HmsLocationLiteSdkCore\HmsLocationLiteSdkCore.csproj">
+      <Name>HmsLocationLiteSdkCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecuritySsl\HmsSecuritySsl.csproj">
+      <Name>HmsSecuritySsl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecurityIntent\HmsSecurityIntent.csproj">
+      <Name>HmsSecurityIntent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecurityEncrypt\HmsSecurityEncrypt.csproj">
+      <Name>HmsSecurityEncrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsSecurityBase\HmsSecurityBase.csproj">
+      <Name>HmsSecurityBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsUcsCommon\HmsUcsCommon.csproj">
+      <Name>HmsUcsCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsUcsCredentialDevelopers\HmsUcsCredentialDevelopers.csproj">
+      <Name>HmsUcsCredentialDevelopers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsNetworkFrameworkCompat\HmsNetworkFrameworkCompat.csproj">
+      <Name>HmsNetworkFrameworkCompat</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HmsHaTool\HmsHaTool.csproj">
+      <Name>HmsHaTool</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\location-5.1.0.303.aar" />
+    <LibraryProjectZip Include="Jars\location-6.3.0.300.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

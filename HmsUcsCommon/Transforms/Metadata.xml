@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.cipher']/class[@name='DefaultDecryptHandler']" />
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.cipher']/class[@name='DefaultEncryptHandler']" />
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.signer']/class[@name='DefaultSignHandler']" />
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.signer']/class[@name='DefaultVerifyHandler']" />
+
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.common']" name="managedName">Huawei.Wisesecurity.Ucs.Common</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.common.utils']" name="managedName">Huawei.Wisesecurity.Ucs.Common.Utils</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.common.log']" name="managedName">Huawei.Wisesecurity.Ucs.Common.Log</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.common.report']" name="managedName">Huawei.Wisesecurity.Ucs.Common.Report</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.common.exception']" name="managedName">Huawei.Wisesecurity.Ucs.Common.Exception</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs']" name="managedName">Huawei.Wisesecurity.Kfs</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.interceptors']" name="managedName">Huawei.Wisesecurity.Kfs.Interceptors</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.signer']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Signer</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.signer.hmac']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Signer.Hmac</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.signer.rsa']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Signer.Rsa</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.signer.ec']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Signer.Ec</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.codec']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Codec</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.digest']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Digest</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.cipher']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Cipher</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.cipher.rsa']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Cipher.Rsa</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.crypto.cipher.aes']" name="managedName">Huawei.Wisesecurity.Kfs.Crypto.Cipher.Aes</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.util']" name="managedName">Huawei.Wisesecurity.Kfs.Util</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.ha']" name="managedName">Huawei.Wisesecurity.Kfs.Ha</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.ha.message']" name="managedName">Huawei.Wisesecurity.Kfs.Ha.Message</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.log']" name="managedName">Huawei.Wisesecurity.Kfs.Log</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.exception']" name="managedName">Huawei.Wisesecurity.Kfs.Exception</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.core']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Core</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.metadata']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Metadata</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator.in']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator.In</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator.number']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator.Number</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator.number.max']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator.Number.Max</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator.number.min']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator.Number.Min</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator.size']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator.Size</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator.size.array']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator.Size.Array</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator.notempty']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator.Notempty</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.kfs.validation.constrains.validator.notempty.array']" name="managedName">Huawei.Wisesecurity.Kfs.Validation.Constrains.Validator.Notempty.Array</attr>
+</metadata>

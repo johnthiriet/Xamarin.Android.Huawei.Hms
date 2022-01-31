@@ -1,0 +1,153 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.huawei.location.activity.model']/class[@name='yn']" name="managedName">YnObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.upload.entity']/class[@name='Vw']" name="managedName">VwObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.util']/class[@name='yn.yn']" name="managedName">YnYn</attr>
+    <attr path="/api/package[@name='com.huawei.location']/class[@name='Vw.Vw']" name="managedName">VwVw</attr>
+    <attr path="/api/package[@name='com.huawei.location.callback']/class[@name='yn.yn']" name="managedName">YnYn</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.upload.entity']/class[@name='yn']" name="managedName">YnObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.upload.http']/class[@name='Vw.yn']" name="managedName">YnYn</attr>
+    <attr path="/api/package[@name='com.huawei.location.activity']/class[@name='Vw']" name="managedName">VwObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.upload.entity']/class[@name='FB.yn']" name="managedName">FbYn</attr>
+    <attr path="/api/package[@name='com.huawei.location']/class[@name='Vw.Vw']" name="managedName">VwVw</attr>
+    <attr path="/api/package[@name='com.huawei.location']/class[@name='Vw.yn']" name="managedName">VwYn</attr>
+    <attr path="/api/package[@name='com.huawei.location']/class[@name='Vw']" name="managedName">VwObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http']/class[@name='HttpService.yn']" name="managedName">YnObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.scan.wifi']/class[@name='yn']" name="managedName">YnObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.scan']/class[@name='Vw']" name="managedName">VwObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.scan.cell']/class[@name='Vw']" name="managedName">VwObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.callback']/class[@name='yn']" name="managedName">YnObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.callback']/class[@name='Vw']" name="managedName">VwObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.upload.http']/class[@name='LW']" name="managedName">VwObject</attr>
+    <attr path="/api/package[@name='com.huawei.location.callback']/class[@name='LW']/method[@name='yn' and count(parameter)=0]" name="managedName">LwYn</attr>
+    <attr path="/api/package[@name='com.huawei.location.callback']/class[@name='Vw.yn']" name="managedName">VwYn</attr>
+
+    <attr path="/api/package[@name='com.huawei.location.router.dispatch']/class[@name='DispatchCallable']/method[@name='call' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+    <!--<remove-node />-->
+    <remove-node path="/api/package[@name='com.huawei.location.lite.common.http']/interface[@name='dC']/method[@name='yn' and count(parameter)=1 and parameter[1][@type='com.huawei.location.lite.common.http.response.yn']]" />
+    <remove-node path="/api/package[@name='com.huawei.location.lite.common.http']/interface[@name='LW']/method[@name='yn' and count(parameter)=2 and parameter[1][@type='com.huawei.location.lite.common.http.HttpConfigInfo'] and parameter[2][@type='com.huawei.location.lite.common.http.request.BaseRequest']]" />
+    <remove-node path="/api/package[@name='com.huawei.location.lite.common.http']/class[@name='LW.yn']/field[@name='yn']" />
+
+    <remove-node path="/api/package[starts-with(@name,'org.apache')]" />
+
+    <!-- Change visibility -->
+    <attr path="/api/package[@name='com.huawei.location.callback']/class[@name='ut']/method[@name='yn' and count(parameter)=1 and parameter[1][@type='android.os.Bundle']]" name="visibility">protected</attr>
+
+    <!-- Change namespace -->
+    <attr path="/api/package[@name='com.huawei.riemann.location']" name="managedName">Huawei.Riemann.Location</attr>
+    <attr path="/api/package[@name='com.huawei.riemann.location.bean']" name="managedName">Huawei.Riemann.Location.Bean</attr>
+    <attr path="/api/package[@name='com.huawei.riemann.location.bean.obs']" name="managedName">Huawei.Riemann.Location.Bean.Obs</attr>
+    <attr path="/api/package[@name='com.huawei.riemann.location.bean.eph']" name="managedName">Huawei.Riemann.Location.Bean.Eph</attr>
+    <attr path="/api/package[@name='com.huawei.riemann.location.bean.log']" name="managedName">Huawei.Riemann.Location.Bean.Log</attr>
+    <attr path="/api/package[@name='com.huawei.riemann.common.api.location']" name="managedName">Huawei.Riemann.Common.Api.Location</attr>
+    <attr path="/api/package[@name='com.huawei.location']" name="managedName">Huawei.Location</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing']" name="managedName">Huawei.Location.Crowdsourcing</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.record']" name="managedName">Huawei.Location.Crowdsourcing.Record</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.common']" name="managedName">Huawei.Location.Crowdsourcing.Common</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.common.util']" name="managedName">Huawei.Location.Crowdsourcing.Common.Util</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.common.entity']" name="managedName">Huawei.Location.Crowdsourcing.Common.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.upload']" name="managedName">Huawei.Location.Crowdsourcing.Upload</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.upload.entity']" name="managedName">Huawei.Location.Crowdsourcing.Upload.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.location.crowdsourcing.upload.http']" name="managedName">Huawei.Location.Crowdsourcing.Upload.Http</attr>
+    <attr path="/api/package[@name='com.huawei.location.cache']" name="managedName">Huawei.Location.Cache</attr>
+    <attr path="/api/package[@name='com.huawei.location.util']" name="managedName">Huawei.Location.Util</attr>
+    <attr path="/api/package[@name='com.huawei.location.activity']" name="managedName">Huawei.Location.Activity</attr>
+    <attr path="/api/package[@name='com.huawei.location.activity.util']" name="managedName">Huawei.Location.Activity.Util</attr>
+    <attr path="/api/package[@name='com.huawei.location.activity.model']" name="managedName">Huawei.Location.Activity.Model</attr>
+    <attr path="/api/package[@name='com.huawei.location.activity.callback']" name="managedName">Huawei.Location.Activity.Callback</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.util']" name="managedName">Huawei.Location.Lite.Common.Util</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.util.unzip']" name="managedName">Huawei.Location.Lite.Common.Util.Unzip</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.util.filedownload']" name="managedName">Huawei.Location.Lite.Common.Util.Filedownload</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.util.coordinateconverter']" name="managedName">Huawei.Location.Lite.Common.Util.Coordinateconverter</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.util.country']" name="managedName">Huawei.Location.Lite.Common.Util.Country</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.config']" name="managedName">Huawei.Location.Lite.Common.Config</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.security']" name="managedName">Huawei.Location.Lite.Common.Security</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.chain']" name="managedName">Huawei.Location.Lite.Common.Chain</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.agc']" name="managedName">Huawei.Location.Lite.Common.Agc</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.agc.net']" name="managedName">Huawei.Location.Lite.Common.Agc.Net</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http']" name="managedName">Huawei.Location.Lite.Common.Http</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http.response']" name="managedName">Huawei.Location.Lite.Common.Http.Response</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http.request']" name="managedName">Huawei.Location.Lite.Common.Http.Request</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http.callback']" name="managedName">Huawei.Location.Lite.Common.Http.Callback</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http.exception']" name="managedName">Huawei.Location.Lite.Common.Http.Exception</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http.sign']" name="managedName">Huawei.Location.Lite.Common.Http.Sign</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http.sign.tss']" name="managedName">Huawei.Location.Lite.Common.Http.Sign.Tss</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http.sign.ucs']" name="managedName">Huawei.Location.Lite.Common.Http.Sign.Ucs</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.http.interceptor']" name="managedName">Huawei.Location.Lite.Common.Http.Interceptor</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.android.context']" name="managedName">Huawei.Location.Lite.Common.Android.Context</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.android.receiver']" name="managedName">Huawei.Location.Lite.Common.Android.Receiver</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.log']" name="managedName">Huawei.Location.Lite.Common.Log</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.log.logwrite']" name="managedName">Huawei.Location.Lite.Common.Log.Logwrite</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.report']" name="managedName">Huawei.Location.Lite.Common.Report</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.grs']" name="managedName">Huawei.Location.Lite.Common.Grs</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.plug']" name="managedName">Huawei.Location.Lite.Common.Plug</attr>
+    <attr path="/api/package[@name='com.huawei.location.lite.common.exception']" name="managedName">Huawei.Location.Lite.Common.Exception</attr>
+    <attr path="/api/package[@name='com.huawei.location.logic']" name="managedName">Huawei.Location.Logic</attr>
+    <attr path="/api/package[@name='com.huawei.location.provider']" name="managedName">Huawei.Location.Provider</attr>
+    <attr path="/api/package[@name='com.huawei.location.utils']" name="managedName">Huawei.Location.Utils</attr>
+    <attr path="/api/package[@name='com.huawei.location.resp']" name="managedName">Huawei.Location.Resp</attr>
+    <attr path="/api/package[@name='com.huawei.location.tiles.cache']" name="managedName">Huawei.Location.Tiles.Cache</attr>
+    <attr path="/api/package[@name='com.huawei.location.tiles.utils']" name="managedName">Huawei.Location.Tiles.Utils</attr>
+    <attr path="/api/package[@name='com.huawei.location.tiles.callback']" name="managedName">Huawei.Location.Tiles.Callback</attr>
+    <attr path="/api/package[@name='com.huawei.location.tiles.store']" name="managedName">Huawei.Location.Tiles.Store</attr>
+    <attr path="/api/package[@name='com.huawei.location.req']" name="managedName">Huawei.Location.Req</attr>
+    <attr path="/api/package[@name='com.huawei.location.gnss']" name="managedName">Huawei.Location.Gnss</attr>
+    <attr path="/api/package[@name='com.huawei.location.gnss.sdm']" name="managedName">Huawei.Location.Gnss.Sdm</attr>
+    <attr path="/api/package[@name='com.huawei.location.gnss.api']" name="managedName">Huawei.Location.Gnss.Api</attr>
+    <attr path="/api/package[@name='com.huawei.location.ephemeris']" name="managedName">Huawei.Location.Ephemeris</attr>
+    <attr path="/api/package[@name='com.huawei.location.ephemeris.net']" name="managedName">Huawei.Location.Ephemeris.Net</attr>
+    <attr path="/api/package[@name='com.huawei.location.constant']" name="managedName">Huawei.Location.Constant</attr>
+    <attr path="/api/package[@name='com.huawei.location.support']" name="managedName">Huawei.Location.Support</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp']" name="managedName">Huawei.Location.Nlp</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.network']" name="managedName">Huawei.Location.Nlp.Network</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.network.response']" name="managedName">Huawei.Location.Nlp.Network.Response</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.network.request']" name="managedName">Huawei.Location.Nlp.Network.Request</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.network.request.wifi']" name="managedName">Huawei.Location.Nlp.Network.Request.Wifi</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.network.request.cell']" name="managedName">Huawei.Location.Nlp.Network.Request.Cell</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.logic']" name="managedName">Huawei.Location.Nlp.Logic</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.scan']" name="managedName">Huawei.Location.Nlp.Scan</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.scan.wifi']" name="managedName">Huawei.Location.Nlp.Scan.Wifi</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.scan.cell']" name="managedName">Huawei.Location.Nlp.Scan.Cell</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.constant']" name="managedName">Huawei.Location.Nlp.Constant</attr>
+    <attr path="/api/package[@name='com.huawei.location.nlp.api']" name="managedName">Huawei.Location.Nlp.Api</attr>
+    <attr path="/api/package[@name='com.huawei.location.sdm']" name="managedName">Huawei.Location.Sdm</attr>
+    <attr path="/api/package[@name='com.huawei.location.sdm.utils']" name="managedName">Huawei.Location.Sdm.Utils</attr>
+    <attr path="/api/package[@name='com.huawei.location.sdm.constant']" name="managedName">Huawei.Location.Sdm.Constant</attr>
+    <attr path="/api/package[@name='com.huawei.location.callback']" name="managedName">Huawei.Location.Callback</attr>
+    <attr path="/api/package[@name='com.huawei.location.service']" name="managedName">Huawei.Location.Service</attr>
+    <attr path="/api/package[@name='com.huawei.location.base']" name="managedName">Huawei.Location.Base</attr>
+    <attr path="/api/package[@name='com.huawei.location.base.activity']" name="managedName">Huawei.Location.Base.Activity</attr>
+    <attr path="/api/package[@name='com.huawei.location.base.activity.entity']" name="managedName">Huawei.Location.Base.Activity.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.location.base.activity.constant']" name="managedName">Huawei.Location.Base.Activity.Constant</attr>
+    <attr path="/api/package[@name='com.huawei.location.base.activity.callback']" name="managedName">Huawei.Location.Base.Activity.Callback</attr>
+    <attr path="/api/package[@name='com.huawei.location.base.activity.permission']" name="managedName">Huawei.Location.Base.Activity.Permission</attr>
+    <attr path="/api/package[@name='com.huawei.location.router']" name="managedName">Huawei.Location.Router</attr>
+    <attr path="/api/package[@name='com.huawei.location.router.entity']" name="managedName">Huawei.Location.Router.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.location.router.dispatch']" name="managedName">Huawei.Location.Router.Dispatch</attr>
+    <attr path="/api/package[@name='com.huawei.location.router.interfaces']" name="managedName">Huawei.Location.Router.Interfaces</attr>
+    <attr path="/api/package[@name='com.huawei.hms']" name="managedName">Huawei.Hms</attr>
+    <attr path="/api/package[@name='com.huawei.hms.location']" name="managedName">Huawei.Hms.Location</attr>
+    <attr path="/api/package[@name='com.huawei.hms.location.entity']" name="managedName">Huawei.Hms.Location.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.hms.location.entity.activity']" name="managedName">Huawei.Hms.Location.Entity.Activity</attr>
+    <attr path="/api/package[@name='com.huawei.hms.location.api']" name="managedName">Huawei.Hms.Location.Api</attr>
+    <attr path="/api/package[@name='com.huawei.hms.location.api.response']" name="managedName">Huawei.Hms.Location.Api.Response</attr>
+    <attr path="/api/package[@name='com.huawei.hms.location.api.request']" name="managedName">Huawei.Hms.Location.Api.Request</attr>
+    <attr path="/api/package[@name='com.huawei.hms.location.base']" name="managedName">Huawei.Hms.Location.Base</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support']" name="managedName">Huawei.Hms.Support</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api']" name="managedName">Huawei.Hms.Support.Api</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity']" name="managedName">Huawei.Hms.Support.Api.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location']" name="managedName">Huawei.Hms.Support.Api.Entity.Location</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.activityrecognition']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Activityrecognition</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.mock']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Mock</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.updates']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Updates</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.common']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.locationavailability']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Locationavailability</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.fence']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Fence</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.checksettings']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Checksettings</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.enhance']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Enhance</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.geocoder']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Geocoder</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.location.lastlocation']" name="managedName">Huawei.Hms.Support.Api.Entity.Location.Lastlocation</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.location']" name="managedName">Huawei.Hms.Support.Api.Location</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.location.common']" name="managedName">Huawei.Hms.Support.Api.Location.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.location.common.exception']" name="managedName">Huawei.Hms.Support.Api.Location.Common.Exception</attr>
+</metadata>

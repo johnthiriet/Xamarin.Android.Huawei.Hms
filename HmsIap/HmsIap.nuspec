@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Huawei.Hms.Iap</id>
+    <version>6.3.0.300</version>
+    <title>Xamarin Huawei Hms Iap SDK</title>
+    <description>Xamarin Binding Library - Huawei Hms Iap SDK.</description>
+    <authors>John Thiriet</authors>
+    <owners>John Thiriet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/johnthiriet/Xamarin.Android.Huawei.Hms</projectUrl>
+    <releaseNotes>Xamarin Android binding for the Hms Iap SDK</releaseNotes>
+    <copyright>Copyright (c) 2020-present John Thiriet</copyright>
+    <tags>Xamarin, Xamarin.Android, Huawei, HMS, Iap</tags>
+    <dependencies>
+      <group>
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="6.3.0.303" include="contentFiles, build" />
+        <dependency id="GoogleGson" version="2.8" include="contentFiles, build" />
+      </group>
+      <group targetFramework="MonoAndroid9.0">
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package> 

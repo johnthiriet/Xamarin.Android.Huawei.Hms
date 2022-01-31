@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Dtm.Api</id>
-    <version>5.3.0.300</version>
+    <version>6.2.0.301</version>
     <title>Xamarin Huawei Hms Dtm Api SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Dtm Api SDK.</description>
     <authors>John Thiriet</authors>
@@ -15,11 +15,11 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.Dtm.Core" version="5.3.0.300" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.17.300" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="5.3.0.304" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.306" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="5.0.3.301" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Dtm.Core" version="6.2.0.301" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.20.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="6.3.0.303" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.309" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="5.0.8.301" include="contentFiles, build" />
         <dependency id="Xamarin.Android.Huawei.Hms.AdsIdentifier" version="3.4.37.300" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid10.0">

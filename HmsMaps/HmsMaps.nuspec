@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Maps</id>
-    <version>5.3.0.300</version>
+    <version>6.3.1.300</version>
     <title>Xamarin Huawei Hms Maps SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Maps SDK.</description>
     <authors>John Thiriet</authors>
@@ -15,8 +15,9 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Maps</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="5.3.0.304" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.17.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="6.3.0.303" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.DynamicApi" version="1.0.20.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.ReactiveX.RxJava3.RxAndroid" version="3.0" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid10.0">
       </group>

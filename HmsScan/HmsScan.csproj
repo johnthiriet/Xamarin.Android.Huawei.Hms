@@ -55,9 +55,6 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\scan-2.1.0.300.aar" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\HmsAgconnectCore\HmsAgconnectCore.csproj">
       <Project>{53BC97F6-0DA1-4F22-B2E0-94F1A2805E31}</Project>
       <Name>HmsAgconnectCore</Name>
@@ -82,6 +79,9 @@
       <Project>{7A0AAF60-6812-45B7-927D-395B52E558BF}</Project>
       <Name>HmsMLCommonUtils</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\scan-2.3.0.300.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

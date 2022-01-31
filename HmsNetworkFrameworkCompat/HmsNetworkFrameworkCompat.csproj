@@ -55,7 +55,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\network-framework-compat-5.0.3.300.aar" />
+    <LibraryProjectZip Include="Jars\network-framework-compat-5.0.8.301.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsNetworkCommon\HmsNetworkCommon.csproj">

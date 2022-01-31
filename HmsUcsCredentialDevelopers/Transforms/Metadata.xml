@@ -1,0 +1,17 @@
+﻿<metadata>
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.crypto.cipher']/class[@name='CredentialEncryptHandler']" />
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.crypto.signer']/class[@name='CredentialSignHandler']" />
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.crypto.cipher']/class[@name='CredentialDecryptHandler']" />
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.crypto.signer']/class[@name='CredentialVerifyHandler']" />
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.crypto.cipher']/class[@name='CredentialCipher']" />
+    <remove-node path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.crypto.signer']/class[@name='CredentialSigner']" />
+
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.credential']" name="managedName">Huawei.Wisesecurity.Ucs.Credential</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.crypto.signer']" name="managedName">Huawei.Wisesecurity.Ucs.Credential.Crypto.Signer</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.crypto.cipher']" name="managedName">Huawei.Wisesecurity.Ucs.Credential.Crypto.Cipher</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.entity']" name="managedName">Huawei.Wisesecurity.Ucs.Credential.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.outer']" name="managedName">Huawei.Wisesecurity.Ucs.Credential.Outer</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.outer.impl']" name="managedName">Huawei.Wisesecurity.Ucs.Credential.Outer.Impl</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs.credential.nativelib']" name="managedName">Huawei.Wisesecurity.Ucs.Credential.Nativelib</attr>
+    <attr path="/api/package[@name='com.huawei.wisesecurity.ucs_credential']" name="managedName">Huawei.Wisesecurity.Ucs_Credential</attr>
+</metadata>

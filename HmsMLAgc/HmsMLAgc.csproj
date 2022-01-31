@@ -55,7 +55,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\ml-computer-agc-inner-2.0.5.304.aar" />
+    <LibraryProjectZip Include="Jars\ml-computer-agc-inner-3.2.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsAgconnectCore\HmsAgconnectCore.csproj">

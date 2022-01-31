@@ -15,7 +15,7 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Push</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="5.1.1.306" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.OpenDevice" version="6.3.0.302" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid10.0">
       </group>

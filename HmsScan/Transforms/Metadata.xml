@@ -111,14 +111,14 @@
     <attr path="/api/package[@name='com.huawei.hms.ml.scan']/class[@name='HmsScan.TelPhoneNumber']/field[@name='telPhoneNumber']" name="managedName">PhoneNumber</attr>
 
 
-
-    <attr path="/api/package[@name='com.huawei.hms.feature']" name="managedName">Huawei.Hms.Feature</attr>
     <attr path="/api/package[@name='com.huawei.hms.hmsscankit']" name="managedName">Huawei.Hms.HmsScanKit</attr>
     <attr path="/api/package[@name='com.huawei.hms.hmsscankit.api']" name="managedName">Huawei.Hms.HmsScanKit.Api</attr>
-    <attr path="/api/package[@name='com.huawei.hms.ml.scan']" name="managedName">Huawei.Hms.Ml.Scan</attr>
+    <attr path="/api/package[@name='com.huawei.hms.ml.scan']" name="managedName">Huawei.Hms.ML.Scan</attr>
     <attr path="/api/package[@name='com.huawei.hms.scankit']" name="managedName">Huawei.Hms.ScanKit</attr>
-    <attr path="/api/package[@name='com.huawei.hms.scankit.aiscan.common']" name="managedName">Huawei.Hms.ScanKit.AiScan.Common</attr>
     <attr path="/api/package[@name='com.huawei.hms.scankit.drawable']" name="managedName">Huawei.Hms.ScanKit.Drawable</attr>
-    <attr path="/api/package[@name='com.huawei.hms.scankit.p']" name="managedName">Huawei.Hms.ScanKit.P</attr>
     <attr path="/api/package[@name='com.huawei.hms.scankit.util']" name="managedName">Huawei.Hms.ScanKit.Util</attr>
+    <attr path="/api/package[@name='com.huawei.hms.scankit.aiscan.common']" name="managedName">Huawei.Hms.ScanKit.AIScan.Common</attr>
+    <attr path="/api/package[@name='com.huawei.hms.scankit.p']" name="managedName">Huawei.Hms.ScanKit.P</attr>
+    <attr path="/api/package[@name='com.huawei.hms.feature']" name="managedName">Huawei.Hms.Feature</attr>
+
 </metadata>

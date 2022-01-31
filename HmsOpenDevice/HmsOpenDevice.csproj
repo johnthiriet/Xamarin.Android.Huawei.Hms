@@ -58,9 +58,6 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\opendevice-5.1.1.306.aar" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\HmsBase\HmsBase.csproj">
       <Project>{9DBE3287-AE3C-4B76-B5B4-95D07DFDE355}</Project>
       <Name>HmsBase</Name>
@@ -121,6 +118,9 @@
       <Project>{1F6D4AE0-FEB5-4DBE-A874-E8EF04BCCC74}</Project>
       <Name>HmsAvailableUpdate</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\opendevice-6.3.0.302.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

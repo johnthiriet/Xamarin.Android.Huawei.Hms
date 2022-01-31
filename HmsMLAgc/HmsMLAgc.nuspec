@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.ML.Agc</id>
-    <version>2.0.5.304</version>
+    <version>3.2.0.300</version>
     <title>Xamarin Huawei Hms ML Agc SDK</title>
     <description>Xamarin Binding Library - Huawei Hms ML Agc SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -16,7 +16,7 @@
     <dependencies>
       <group>
         <dependency id="Xamarin.Android.Huawei.Agconnect.Core" version="1.5.0.300" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.ML.CommonUtils" version="2.0.5.304" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.ML.CommonUtils" version="3.2.0.300" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid10.0">
       </group>

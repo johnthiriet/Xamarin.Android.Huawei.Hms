@@ -49,7 +49,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\availableupdate-5.3.0.304.aar" />
+    <LibraryProjectZip Include="Jars\availableupdate-6.3.0.303.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />

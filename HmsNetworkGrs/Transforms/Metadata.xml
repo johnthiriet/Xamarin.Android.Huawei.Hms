@@ -1,12 +1,12 @@
 ﻿<metadata>
     <attr path="/api/package[@name='com.huawei.hms.framework.network.grs']" name="managedName">Huawei.Hms.Framework.Network.Grs</attr>
-    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.a']" name="managedName">Huawei.Hms.Framework.Network.Grs.A</attr>
-    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.b']" name="managedName">Huawei.Hms.Framework.Network.Grs.B</attr>
-    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.c']" name="managedName">Huawei.Hms.Framework.Network.Grs.C</attr>
-    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.c.a']" name="managedName">Huawei.Hms.Framework.Network.Grs.C.A</attr>
-    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.c.b']" name="managedName">Huawei.Hms.Framework.Network.Grs.C.B</attr>
-    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.d']" name="managedName">Huawei.Hms.Framework.Network.Grs.D</attr>
-    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.d.a']" name="managedName">Huawei.Hms.Framework.Network.Grs.D.A</attr>
-    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.d.b']" name="managedName">Huawei.Hms.Framework.Network.Grs.D.B</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.g']" name="managedName">Huawei.Hms.Framework.Network.Grs.G</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.g.j']" name="managedName">Huawei.Hms.Framework.Network.Grs.G.J</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.g.k']" name="managedName">Huawei.Hms.Framework.Network.Grs.G.K</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.f']" name="managedName">Huawei.Hms.Framework.Network.Grs.F</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.h']" name="managedName">Huawei.Hms.Framework.Network.Grs.H</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.h.g']" name="managedName">Huawei.Hms.Framework.Network.Grs.H.G</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.h.f']" name="managedName">Huawei.Hms.Framework.Network.Grs.H.F</attr>
     <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.local.model']" name="managedName">Huawei.Hms.Framework.Network.Grs.Local.Model</attr>
+    <attr path="/api/package[@name='com.huawei.hms.framework.network.grs.e']" name="managedName">Huawei.Hms.Framework.Network.Grs.E</attr>
 </metadata>

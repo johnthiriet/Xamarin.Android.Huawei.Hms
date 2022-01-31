@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Stats</id>
-    <version>5.3.0.304</version>
+    <version>6.3.0.303</version>
     <title>Xamarin Huawei Hms Stats SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Stats SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -15,9 +15,9 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
       <group targetFramework="MonoAndroid10.0">
-        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="5.3.0.301" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Log" version="5.3.0.304" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.HaTool" version="5.3.0.304" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.NetworkGrs" version="5.0.8.301" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Log" version="6.3.0.303" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.HaTool" version="6.3.0.303" include="contentFiles, build" />
       </group>
     </dependencies>
     <frameworkAssemblies>

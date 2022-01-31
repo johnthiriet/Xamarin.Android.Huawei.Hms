@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\update-3.0.2.300.aar" />
+    <LibraryProjectZip Include="Jars\update-4.0.1.300.aar" />
   </ItemGroup>
   <ItemGroup>
       <ProjectReference Include="..\HmsNetworkGrs\HmsNetworkGrs.csproj">

@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
     <remove-node path="/api/package[@name='com.huawei.hms.dtm.core']/class[@name='A']/method[@name='a' and count(parameter)=1 and parameter[1][@type='com.huawei.hms.dtm.core.B']]" />
-    <attr path="/api/package[@name='com.huawei.android.hms.ppskit']" name="managedName">Huawei.Hms.Feature.PPSKit</attr>
+    <remove-node path="/api/package[@name='com.huawei.hms.dtm.core']/class[@name='B']/constructor[@name='B' and count(parameter)=4 and parameter[1][@type='java.util.concurrent.Executor'] and parameter[2][@type='com.huawei.hms.dtm.core.Nc'] and parameter[3][@type='com.huawei.hms.dtm.core.W'] and parameter[4][@type='com.huawei.hms.dtm.core.C']]" />
+
     <attr path="/api/package[@name='com.huawei.hms.dtm.core']" name="managedName">Huawei.Hms.Dtm.Core</attr>
-    <attr path="/api/package[@name='com.huawei.hms.dtm.core.debug']" name="managedName">Huawei.Hms.Dtm.Core.Debug</attr>
-    <attr path="/api/package[@name='com.huawei.hms.dtm.core.report']" name="managedName">Huawei.Hms.Dtm.Core.Report</attr>
     <attr path="/api/package[@name='com.huawei.hms.dtm.core.safe']" name="managedName">Huawei.Hms.Dtm.Core.Safe</attr>
     <attr path="/api/package[@name='com.huawei.hms.dtm.core.util']" name="managedName">Huawei.Hms.Dtm.Core.Util</attr>
+    <attr path="/api/package[@name='com.huawei.hms.dtm.core.report']" name="managedName">Huawei.Hms.Dtm.Core.Report</attr>
+    <attr path="/api/package[@name='com.huawei.hms.dtm.core.debug']" name="managedName">Huawei.Hms.Dtm.Core.Debug</attr>
 </metadata>

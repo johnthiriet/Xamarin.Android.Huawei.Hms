@@ -1,0 +1,6 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.site']" name="managedName">Huawei.Hms.Site</attr>
+    <attr path="/api/package[@name='com.huawei.hms.site.widget']" name="managedName">Huawei.Hms.Site.Widget</attr>
+    <attr path="/api/package[@name='com.huawei.hms.site.api']" name="managedName">Huawei.Hms.Site.Api</attr>
+    <attr path="/api/package[@name='com.huawei.hms.site.api.model']" name="managedName">Huawei.Hms.Site.Api.Model</attr>
+</metadata>

@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-   
+﻿<metadata>
     <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.analytics.database')]" />
     
     <attr path="/api/package[@name='com.huawei.hms.analytics']/class[@name='fgh.lmn']" name="managedName">LmnObject</attr>
@@ -8,17 +6,26 @@
     <attr path="/api/package[@name='com.huawei.hms.analytics']/class[@name='ghi.lmn.lmn']" name="managedName">LmnObject</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics']/class[@name='lmn.lmn.lmn']" name="managedName">LmnObject</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics']/class[@name='klm']" name="managedName">KlmObject</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics']/class[@name='bcd']" name="managedName">BcdObject</attr>
         
     <add-node path="/api/package[@name='com.huawei.hms.analytics']/class[@name='def.klm']">
         <method name="onSuccess" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
             <parameter name="result" type="java.lang.Object" />
         </method>
     </add-node>
+
+    <remove-node path="/api/package[@name='com.huawei.hms.analytics']/class[@name='ghi']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.analytics']/class[@name='efg.lmn']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.analytics']/class[@name='bcd']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.analytics']/class[@name='ijk']" />
+    <remove-node path="/api/package[@name='com.huawei.hms.analytics']/class[@name='def.lmn']" />
     
     <attr path="/api/package[@name='com.huawei.hms.analytics']" name="managedName">Huawei.Hms.Analytics</attr>
-    <attr path="/api/package[@name='com.huawei.hms.analytics.connector']" name="managedName">Huawei.Hms.Analytics.Connector</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.database']" name="managedName">Huawei.Hms.Analytics.Database</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.internal']" name="managedName">Huawei.Hms.Analytics.Internal</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics.internal.filter']" name="managedName">Huawei.Hms.Analytics.Internal.Filter</attr>
-    <attr path="/api/package[@name='com.huawei.hms.analytics.receiver']" name="managedName">Huawei.Hms.Analytics.Receiver</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.provider']" name="managedName">Huawei.Hms.Analytics.Provider</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics.type']" name="managedName">Huawei.Hms.Analytics.Type</attr>
-    
+    <attr path="/api/package[@name='com.huawei.hms.analytics.receiver']" name="managedName">Huawei.Hms.Analytics.Receiver</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.connector']" name="managedName">Huawei.Hms.Analytics.Connector</attr>
 </metadata>

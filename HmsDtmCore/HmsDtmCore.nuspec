@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Dtm.Core</id>
-    <version>5.3.0.300</version>
+    <version>6.2.0.301</version>
     <title>Xamarin Huawei Hms Dtm Core SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Dtm Core SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>

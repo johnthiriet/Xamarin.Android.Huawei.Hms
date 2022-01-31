@@ -48,7 +48,6 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\maps-5.3.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -102,9 +101,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.Fragment">
-      <Version>1.2.5.3</Version>
+    <PackageReference Include="Xamarin.Android.ReactiveX.RxJava3.RxJava">
+      <Version>3.1.2</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Android.ReactiveX.RxJava3.RxAndroid">
+      <Version>3.0.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\maps-6.3.1.300.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

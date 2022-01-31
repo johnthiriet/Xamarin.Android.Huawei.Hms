@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
     <attr path="/api/package[@name='com.huawei.hms.analytics.framework']" name="managedName">Huawei.Hms.Analytics.Framework</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.config']" name="managedName">Huawei.Hms.Analytics.Framework.Config</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.g']" name="managedName">Huawei.Hms.Analytics.Framework.G</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics.framework.a']" name="managedName">Huawei.Hms.Analytics.Framework.A</attr>
-    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.b']" name="managedName">Huawei.Hms.Analytics.Framework.B</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.f']" name="managedName">Huawei.Hms.Analytics.Framework.F</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics.framework.c']" name="managedName">Huawei.Hms.Analytics.Framework.C</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics.framework.c.a']" name="managedName">Huawei.Hms.Analytics.Framework.C.A</attr>
-    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.config']" name="managedName">Huawei.Hms.Analytics.Framework.Config</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.d']" name="managedName">Huawei.Hms.Analytics.Framework.D</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics.framework.e']" name="managedName">Huawei.Hms.Analytics.Framework.E</attr>
-    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.f']" name="managedName">Huawei.Hms.Analytics.Framework.F</attr>
-    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.g']" name="managedName">Huawei.Hms.Analytics.Framework.G</attr>
-    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.listener']" name="managedName">Huawei.Hms.Analytics.Framework.Listener</attr>
+    <attr path="/api/package[@name='com.huawei.hms.analytics.framework.b']" name="managedName">Huawei.Hms.Analytics.Framework.B</attr>
     <attr path="/api/package[@name='com.huawei.hms.analytics.framework.policy']" name="managedName">Huawei.Hms.Analytics.Framework.Policy</attr>
 </metadata>

@@ -1,0 +1,14 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.paytask']/class[@name='PayHmsClientBuilder']/method[@name='buildClient']" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.huawei.hms.iap.entity']/class[@name='InAppPurchaseData']/method[@name='getPurchaseState' and count(parameter)=0]" name="propertyName"></attr>
+
+    <attr path="/api/package[@name='com.huawei.hms.iap']" name="managedName">Huawei.Hms.Iap</attr>
+    <attr path="/api/package[@name='com.huawei.hms.iap.util']" name="managedName">Huawei.Hms.Iap.Util</attr>
+    <attr path="/api/package[@name='com.huawei.hms.iap.entity']" name="managedName">Huawei.Hms.Iap.Entity</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay']" name="managedName">Huawei.Hms.Support.Api.Entity.Pay</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.entity.pay.internal']" name="managedName">Huawei.Hms.Support.Api.Entity.Pay.Internal</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.paytask']" name="managedName">Huawei.Hms.Support.Api.Paytask</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.paytask.fullsdk']" name="managedName">Huawei.Hms.Support.Api.Paytask.Fullsdk</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.pay']" name="managedName">Huawei.Hms.Support.Api.Pay</attr>
+    <attr path="/api/package[@name='com.huawei.hms.support.api.pay.util']" name="managedName">Huawei.Hms.Support.Api.Pay.Util</attr>
+</metadata>

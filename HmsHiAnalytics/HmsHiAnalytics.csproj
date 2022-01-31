@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\hianalytics-5.3.1.300.aar" />
+    <LibraryProjectZip Include="Jars\hianalytics-6.4.0.300.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmsAgconnectCredential\HmsAgconnectCredential.csproj">
@@ -108,6 +108,10 @@
     <ProjectReference Include="..\HmsHiAnalyticsFramework\HmsHiAnalyticsFramework.csproj">
       <Project>{48A2EC42-EB23-4A82-8976-560BA99E3145}</Project>
       <Name>HmsHiAnalyticsFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InstallReferrer\InstallReferrer.csproj">
+      <Project>{31A0285F-3AE2-4707-95DD-8666988D78D2}</Project>
+      <Name>InstallReferrer</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

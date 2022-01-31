@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.HiAnalytics.Framework</id>
-    <version>5.3.1.300</version>
+    <version>6.4.0.300</version>
     <title>Xamarin Huawei HiAnalytics Framework SDK</title>
     <description>Xamarin Binding Library - Huawei HiAnalytics Core SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -15,7 +15,7 @@
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, HiAnalytics, Analytics</tags>
     <dependencies>
       <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.HiAnalytics.Core" version="5.3.1.300" include="contentFiles, build" />
+        <dependency id="Xamarin.Android.Huawei.Hms.HiAnalytics.Core" version="6.4.0.300" include="contentFiles, build" />
       </group>
       <group targetFramework="MonoAndroid10.0">
       </group>

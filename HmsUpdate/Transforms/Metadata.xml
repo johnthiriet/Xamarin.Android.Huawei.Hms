@@ -6,8 +6,9 @@
     <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='Param']" name="extends">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']/class[@name='Param']" name="extends">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk']" name="managedName">Huawei.UpdateSdk</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.fileprovider']" name="managedName">Huawei.UpdateSdk.FileProvider</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']" name="managedName">Huawei.UpdateSdk.Service.AppMgr.Bean</attr>
-    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']" name="managedName">Huawei.UpdateSdk.Service.OtaUpdate</attr>
     <attr path="/api/package[@name='com.huawei.updatesdk.support.pm']" name="managedName">Huawei.UpdateSdk.Support.Pm</attr>
+    <attr path="/api/package[@name='com.huawei.updatesdk.fileprovider']" name="managedName">Huawei.UpdateSdk.Fileprovider</attr>
+    <attr path="/api/package[@name='com.huawei.updatesdk.service.appmgr.bean']" name="managedName">Huawei.UpdateSdk.Service.Appmgr.Bean</attr>
+    <attr path="/api/package[@name='com.huawei.updatesdk.service.otaupdate']" name="managedName">Huawei.UpdateSdk.Service.Otaupdate</attr>
+
 </metadata>
