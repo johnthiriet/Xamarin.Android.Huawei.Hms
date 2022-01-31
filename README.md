@@ -1,7 +1,7 @@
 # Xamarin.Android.Huawei.Hms
 Huawei HMS Xamarin Android Bindings
 
-Nuget packages available in preview until we have many users :)
+Please feel free to modify those bindings to suit your needs.
 
 - [Huawei.Hms.Maps](https://www.nuget.org/packages/Xamarin.Android.Huawei.Hms.Maps/)
 - [Huawei.Hms.Push](https://www.nuget.org/packages/Xamarin.Android.Huawei.Hms.Push/)
