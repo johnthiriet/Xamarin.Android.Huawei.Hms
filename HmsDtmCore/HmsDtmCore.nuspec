@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Dtm.Core</id>
-    <version>6.2.0.301</version>
+    <version>6.2.0.401</version>
     <title>Xamarin Huawei Hms Dtm Core SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Dtm Core SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -14,8 +14,6 @@
     <copyright>Copyright (c) 2020-present John Thiriet</copyright>
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
-      <group>
-      </group>
       <group targetFramework="MonoAndroid10.0">
       </group>
     </dependencies>

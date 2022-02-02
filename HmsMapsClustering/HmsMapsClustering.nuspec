@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Maps.Clustering</id>
-    <version>5.1.0.300</version>
+    <version>5.1.0.400</version>
     <title>Xamarin Huawei Hms Maps Clustering SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Maps Clustering SDK.</description>
     <authors>John Thiriet</authors>
@@ -14,10 +14,8 @@
     <copyright>Copyright (c) 2020-present John Thiriet</copyright>
     <tags>Xamarin, Xamarin.Android, Huawei, HMS, Maps, Clustering</tags>
     <dependencies>
-      <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.Maps" version="6.3.1.300" include="contentFiles, build" />
-      </group>
       <group targetFramework="MonoAndroid10.0">
+        <dependency id="Xamarin.Android.Huawei.Hms.Maps" version="6.3.1.400" />
       </group>
     </dependencies>
     <frameworkAssemblies>

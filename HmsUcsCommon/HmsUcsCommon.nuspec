@@ -14,8 +14,6 @@
     <copyright>Copyright (c) 2020-present John Thiriet</copyright>
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
-      <group>
-      </group>
       <group targetFramework="MonoAndroid10.0">
       </group>
     </dependencies>

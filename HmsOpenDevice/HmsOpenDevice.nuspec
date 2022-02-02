@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.OpenDevice</id>
-    <version>6.3.0.302</version>
+    <version>6.3.0.402</version>
     <title>Xamarin Huawei Hms OpenDevice SDK</title>
     <description>Xamarin Binding Library - Huawei Hms OpenDevice SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>
@@ -14,13 +14,11 @@
     <copyright>Copyright (c) 2020-present John Thiriet</copyright>
     <tags>Xamarin, Xamarin.Android, Huawei, HMS</tags>
     <dependencies>
-      <group>
-        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="6.3.0.303" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Security.Base" version="1.1.5.308" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.309" include="contentFiles, build" />
-        <dependency id="Xamarin.Android.Huawei.Hms.Security.Encrypt" version="1.1.5.309" include="contentFiles, build" />
-      </group>
       <group targetFramework="MonoAndroid10.0">
+        <dependency id="Xamarin.Android.Huawei.Hms.Base" version="6.3.0.403" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Security.Base" version="1.1.5.408" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Security.Ssl" version="1.1.5.409" />
+        <dependency id="Xamarin.Android.Huawei.Hms.Security.Encrypt" version="1.1.5.409" />
       </group>
     </dependencies>
     <frameworkAssemblies>

@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.Component.Verify.Sdk</id>
-    <version>11.4.1.301</version>
+    <version>11.4.1.401</version>
     <title>Xamarin Huawei Hms Component Verify SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Component Verify SDK. This SDK is a dependency of various Huawei Hms SDKs and is not intended to be used directly.</description>
     <authors>John Thiriet</authors>

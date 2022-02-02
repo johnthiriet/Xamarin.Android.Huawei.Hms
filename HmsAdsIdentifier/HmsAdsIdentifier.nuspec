@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xamarin.Android.Huawei.Hms.AdsIdentifier</id>
-    <version>3.4.37.300</version>
+    <version>3.4.37.400</version>
     <title>Xamarin Huawei Hms Ads Identifier SDK</title>
     <description>Xamarin Binding Library - Huawei Hms Ads Identifier SDK.</description>
     <authors>John Thiriet</authors>

@@ -357,10 +357,10 @@ Task("Pack")
 {
     foreach(var artifact in artifacts) {
         NuGetPack(artifact.Csproj, new NuGetPackSettings {
-            Version = artifact.Version,
+            //Version = artifact.Version,
             Dependencies = artifact.Dependencies,
             ReleaseNotes = artifact.ReleaseNotes,
-            IncludeReferencedProjects = true,
+            IncludeReferencedProjects = false,
             Properties = new Dictionary<string, string>
             {
                 { "Configuration", "Release" }
